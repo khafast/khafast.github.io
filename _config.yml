@@ -16,7 +16,7 @@ github_url: https://github.com/khanhcongle
 description: This is personnel website of KHANH Le
 favicon: favicon.png # Image must be in assets/images
 
-url: khanhcongle/khanhcongle.github.io # the base hostname & protocol for your site
+url: #khanhcongle/khanhcongle.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:

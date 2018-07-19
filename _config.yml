@@ -1,14 +1,7 @@
-title: Khanh+Note
-author: Khanh Le
-email: lecongkhanh382@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A Personal Note of Khanh Le :")
-  
+title: Khanh Le on GitHub
+description: Khanh is my name, this is my personal page on GitHub, hope you like it :")
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
 future: true
 timezone: Asia/Bangkok
-
-twitter_username: lecongkhanh382@gmail.com
-github_username:  lecongkhanh382@gmail.com
-
-sass:
-    style: compressed

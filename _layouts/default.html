@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include header.html %}
 
-  {% include head.html %}
+<div class="container">
+  {{ content }}
+</div>
 
-  <body>
-
-    {% include header.html %}
-
-
-        {{ content }}
-
-    {% include footer.html %}
-      
-    {% include script.html %}
-
-  </body>
-
-</html>
+{% include footer.html %}

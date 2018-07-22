@@ -43,10 +43,10 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: httpdongchuangithubio.disqus.com # TODO: fix this
+disque: .disqus.com # TODO: fix this
 
 # Pagination
-paginate: 10
+paginate: 7
 paginate_path: 'page:num'
 
 # Navigation
@@ -80,9 +80,8 @@ analytics :
   google :
       tracking_id : 'UA-72165600-1' # TODO: fix this
 
-
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
+skill_software_keywords: [Python, Java, C++, C, SQLite, MySQL, PL/SQL, Qt, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
 skill_mobile_app_keywords: [Android, Sketch UI Desgin]

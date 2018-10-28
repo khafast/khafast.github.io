@@ -19,6 +19,8 @@ Ever wanted to simplify documentation and avoid heavy tools like Visio when expl
 
 This is why mermaid was born, a simple markdown-like script language for generating charts from text via javascript.
 
+### At first, how to use it?
+[Read this article](http://kkpattern.github.io/2015/05/15/Embed-Chart-in-Jekyll.html)
 
 ### Flowchart
 
@@ -29,8 +31,13 @@ graph TD;
     B-->D;
     C-->D;
 ```
-![Flowchart](./img/flow.png)
-
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
 
 ### Sequence diagram
 
@@ -47,8 +54,19 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
-![Sequence diagram](./img/sequence.png)
-
+<div class="mermaid">
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+</div>
 
 ### Gantt diagram
 
@@ -63,8 +81,17 @@ Active task               :active,  des2, 2014-01-09, 3d
 Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
 ```
-![Gantt diagram](./img/gantt.png)
+<div class="mermaid">
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
 
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+</div>
 
 ### Class diagram - :exclamation: experimental
 
@@ -84,8 +111,22 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
-![Class diagram](./img/class.png)
-
+<div class="mermaid">
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+</div>
 
 ### Git graph - :exclamation: experimental
 
@@ -109,7 +150,24 @@ merge newbranch
 
 ```
 
-![Git graph](./img/git.png)
+<div class="mermaid">
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+</div>
 
 
 ## Installation

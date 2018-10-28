@@ -5,18 +5,6 @@ category: android
 tags: [android]
 ---
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
 RxJava binding APIs for Android's UI widgets. 学习的是 [JakeWharton 的版本](https://github.com/JakeWharton/RxBinding). 另外还有用于 mvvm 的 [ogaclejapan 版本](https://github.com/ogaclejapan/RxBinding).
 
 RxBinding 是 RxAndroid 中处理控件异步调用的方式. 通过绑定组件, 异步获取事件, 并进行处理. 编码风格非常优雅. 不需要去添加各种 listener 的匿名方法.
@@ -164,5 +152,5 @@ Subscription editTextSub =
 
 * [Reactive Android UI Programming with RxBinding](https://realm.io/news/donn-felker-reactive-android-ui-programming-with-rxbinding/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA5NTcxNjddfQ==
+eyJoaXN0b3J5IjpbMjAwNTgxMzU5OCwtMTY3MDk1NzE2N119
 -->

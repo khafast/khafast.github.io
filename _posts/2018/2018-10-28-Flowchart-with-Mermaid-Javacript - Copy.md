@@ -7,12 +7,7 @@ tags: [mermaid]
 
 # mermaid
 
-[![Build Status](https://travis-ci.org/knsv/mermaid.svg?branch=master)](https://travis-ci.org/knsv/mermaid)
-[![Coverage Status](https://coveralls.io/repos/github/knsv/mermaid/badge.svg?branch=master)](https://coveralls.io/github/knsv/mermaid?branch=master)
-[![Join the chat at https://gitter.im/knsv/mermaid](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/knsv/mermaid?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-![banner](./img/header.png)
-
+## Overview
 Generation of diagrams and flowcharts from text in a similar manner as markdown.
 
 Ever wanted to simplify documentation and avoid heavy tools like Visio when explaining your code?

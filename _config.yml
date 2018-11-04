@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: I am Khanh !
-name: KHANH Le
+title: Khafaref
+name: Khafast
 email: lecongkhanh382@gmail.com
 location: HCMC, Vietnam
 company: Renesas Design Vietnam Co. Ltd.
 company_url: #
-github_url: https://github.com/khanhcongle
-description: This is personnel website of KHANH Le
+github_url: https://github.com/khafast
+description: This is a tech reference page built by Khafast
 favicon: favicon.png # Image must be in assets/images
 
-url: #khanhcongle/khanhcongle.github.io # the base hostname & protocol for your site
+url: #khafast/khafast.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -81,7 +81,7 @@ analytics :
       tracking_id : 'UA-72165600-1' # TODO: fix this
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Python, Java, C++, C, SQLite, MySQL, PL/SQL, Qt, Oracle, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_software_keywords: [Python, Java, C++, C, SQLite, MySQL] # More: , PL/SQL, Qt, Oracle, Design Patterns
+skill_j2ee_keywords: [Spring, JSP] # More: Struct, Hibernet, MyBatis, 
+skill_web_keywords: [HTML, CSS, JS, JQuery, AngularJS, Boostrap] #NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Ajax, 
+skill_mobile_app_keywords: [_] #More

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install Python Packages Manually without Admin Privilege
+title: Install Python Packages Manually
 category: python
 tags: [python]
 ---

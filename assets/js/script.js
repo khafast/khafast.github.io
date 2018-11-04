@@ -1,7 +1,7 @@
 // Window Scroll
 var windowScroll = function () {
     $(window).scroll(function () {
-
+        /*
         var scrollPos = $(this).scrollTop();
 
         if ($(window).scrollTop() > 70) {
@@ -9,6 +9,7 @@ var windowScroll = function () {
         } else {
             $('.site-header').removeClass('site-header-nav-scrolled');
         }
+        */
     });
 };
 

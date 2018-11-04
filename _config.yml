@@ -84,4 +84,4 @@ analytics :
 skill_software_keywords: [Python, Java, C++, C, SQLite, MySQL] # More: , PL/SQL, Qt, Oracle, Design Patterns
 skill_j2ee_keywords: [Spring, JSP] # More: Struct, Hibernet, MyBatis, 
 skill_web_keywords: [HTML, CSS, JS, JQuery, AngularJS, Boostrap] #NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Ajax, 
-skill_mobile_app_keywords: [_] #More
+skill_mobile_app_keywords: [] #More Android, iOS,

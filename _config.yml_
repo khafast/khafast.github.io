@@ -12,16 +12,16 @@ email: my_email_address@lalala.com
 location: HCMC, Vietnam. # ex. Nice, France
 company: Renesas Design Vietnam Co. Ltd.
 company_url: my_company_website
-github_url: https://github.com/khanhcongle # ex. https://github.com/khanhcongle
-github_username: khanhcongle # ex. DONGChuan
+github_url: https://github.com/khafast # ex. https://github.com/khanhcongle
+github_username: khafast # ex. DONGChuan
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
-repository: khanhcongle/khanhcongle.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: khafast/khafast.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://khanhcongle.github.io
+url: https://khafast.github.io
 
 ## Gem
 gems:

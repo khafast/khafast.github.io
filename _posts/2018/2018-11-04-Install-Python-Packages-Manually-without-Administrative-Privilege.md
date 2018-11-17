@@ -38,7 +38,9 @@ tags: [python]
 
 ## Tested on following packages
     1. selenium (automating stuffs on web browsers)
-    2. pylint (syntax error suggestion)
-    3. colorama (allows to print colored text to output console)
+    2. peewee (a simple ORM for MySQL, SQLite, and more)
+    3. pylint (syntax error suggestion)
+    4. colorama (allows to print colored text to output console)
+    5. bs4 (Beautiful Soup 4) (parsing HtML document)
 
 ## Ref

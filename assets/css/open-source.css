@@ -9,8 +9,6 @@
     display: table-cell;
     vertical-align: middle;
     width: 100%; 
-    overflow: hidden;
-    text-overflow: "..."; 
 }
 
 .card-image h3 {
@@ -19,11 +17,14 @@
 
 .card-image a {
     color: #fff;
+    overflow: hidden;
+    text-overflow: "..."; 
 }
 
 .card-description {
     height: 3em;
     overflow: hidden;
+    text-overflow: "..."; 
 }
 
 .jumbotron h1, .jumbotron .meta-info {

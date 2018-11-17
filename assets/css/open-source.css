@@ -8,7 +8,9 @@
 .card-image .card-image-cell {
     display: table-cell;
     vertical-align: middle;
-    overflow-wrap: break-word;
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: "..."; 
 }
 
 .card-image h3 {

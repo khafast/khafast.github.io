@@ -118,16 +118,17 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 
 ## # Spring Bean Configuration Inheritance
 
->
+> Can we re-use some configuration in Bean configuration file?
+> For an example, we have Students, Teachers, Professors. They all have name and year-of-birth. Can 
 
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4NzY4OTcsLTEyODg2Mjc4NjYsLT
-E4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5
-MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMz
-E2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4
-XX0=
+eyJoaXN0b3J5IjpbNzg4MTgwNzMsLTEyODg2Mjc4NjYsLTE4Mj
+EwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5
+MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2ND
+QsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+
 -->

@@ -42,7 +42,7 @@ Object obj = (Object) context.getBean("beanId");
 obj.publicMethod();
 ```
 
-> About advantages of ApplicationContext over the BeanFactor, beside the additional functionalities, any other bold differences?
+> About advantages of ApplicationContext over the BeanFactory, beside the additional functionalities, any other bold differences?
 
 BeanFactory is lazy loading, it only instantiate the object after calling getBean() method and call a method in the object.
 ApplicationContext instantiate the object as soon as the ApplicationContext is created.
@@ -60,6 +60,6 @@ Yes, you are correct,  the most popular methods:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwNjcyNTAsLTE4NjUwMzE2NDQsLT
+eyJoaXN0b3J5IjpbLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLT
 ExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

@@ -78,21 +78,19 @@ Example:
 > Type of Beans is defined in "class" attribute, I guess that we have to cast the result to desired class when using getBean method (of ApplicationContext). 
 >Is it correct?
 
-Yes, you are correct. Following is an example:
+Yes, you are correct, following is an example (notice the PrototypeBean casting):
 ```java
 public class TestPrototypeBean {
-       public static void main(String[] args) {
-     
-      ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-      PrototypeBean prototypeBeanA = (PrototypeBean)context.getBean("prototypeBean");
-      System.out.println(prototypeBeanA); 
-      
-      PrototypeBean prototypeBeanB = (PrototypeBean)context.getBean("prototypeBean");
-      System.out.println(prototypeBeanB);
-         
-      System.out.println("Is Prototype Bean A and Prototype B are same ? " +
-          (prototypeBeanA==prototypeBeanB));
-    }
+      public static void main(String[] args) {
+	      ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+	      PrototypeBean prototypeBeanA = (PrototypeBean)context.getBean("prototypeBean");
+	      System.out.println(prototypeBeanA); 
+	      
+	      PrototypeBean prototypeBeanB = (PrototypeBean)context.getBean("prototypeBean");
+	      System.out.println(prototypeBeanB);
+	         
+	      System.out.println("Is Prototype Bean A and Prototype B are same ? " +  (prototypeBeanA==prototypeBeanB));
+      }
 }
 ```
 
@@ -100,7 +98,7 @@ public class TestPrototypeBean {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI4NDkzMzksNTg4MTQyMDk0LC0xMD
+eyJoaXN0b3J5IjpbLTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMD
 A3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1
 NzAwODcsMTQ2OTcyNzkwOF19
 -->

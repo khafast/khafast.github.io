@@ -35,11 +35,12 @@ ApplicationContext instantiate the object as soon as the ApplicationContext is c
 
 Yes, you are correct, there is many, the most popular methods:
 
+- Class 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMDU2NDUwLC0xODY1MDMxNjQ0LC0xMT
-k2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbMTM2NzE0OTE3MywtMTg2NTAzMTY0NCwtMT
+E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

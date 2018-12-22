@@ -58,12 +58,16 @@ Yes, you are correct,  the most popular methods:
 
 > In my imagination, each Bean defined in the XML file has an ID. Is it Singleton Bean (Object)?
 
+It is about scope of Beans. The Spring framework has predefined the following scopes:
+
+ - singleton (default)
+ - 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDIwMTU3OSw1ODgxNDIwOTQsLTEwMD
-c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
-MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbMjc2NTkwNTQ1LDU4ODE0MjA5NCwtMTAwNz
+QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
+MDg3LDE0Njk3Mjc5MDhdfQ==
 -->

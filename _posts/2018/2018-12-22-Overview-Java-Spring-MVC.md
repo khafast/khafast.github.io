@@ -19,11 +19,15 @@ Using this approach, you can de-couple dependencies
 
 > You mentioned about BeanFactory, but what is its relation with ClassPathXmlApplicationContext?
 
-The ClassPathApplicationContext provides additional functionalit
+The ClassPathApplicationContext provides additional functionalities over the BeanFactory. For example, you can use getBean function just like with BeanFactory -
+
+``` java
+ApplicationC
+```
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMxMTMxNTUsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbMjQyNjU4MjM1LDE0Njk3Mjc5MDhdfQ==
 -->

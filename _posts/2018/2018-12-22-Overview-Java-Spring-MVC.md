@@ -54,13 +54,13 @@ Yes, you are correct,  the most popular methods:
 
 - *ClassPathXmlApplicationContext*: Load the Bean configuration xml file from class path (e.g. folder ./src).
 - *FileSystemXmlApplicationContext*: Load from the system file (e.g. folder C:\beans.xml)
-- *XmlWebApplicationContext*: Load t over the internet.
+- *XmlWebApplicationContext*: Load over the internet.
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ2OTE4MDYsLTEwMDc0MzYzOTUsLT
-E4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5
-NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
+Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
+NzkwOF19
 -->

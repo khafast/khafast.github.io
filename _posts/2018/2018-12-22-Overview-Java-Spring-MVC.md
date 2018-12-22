@@ -136,12 +136,12 @@ Yes, you can. Let take a look at following example:
 > Is there other kind of inheritance?
 
 Yes, there is other kind of inheritances you can do a configuration parent Bean by your demand:
-|class attr.|abstract attr.| Desc.  |
-|-----------|--------------|-------------------|
-|yes        |no            | CAN initialize both parent and children, DON'T define "class" attribute in children Bean|
-|yes        |yes           | CANNOT initialize parent, HAVE TO define "class" attribute in children Bean)               |
-|no         |yes           | Not use (no application)|
-|no         |no            | Not use (no application)|
+| class attr. | abstract attr. | Desc.  |
+| ----------- | -------------- | ------------------- |
+| yes        | no            | CAN initialize both parent and children, DON'T define "class" attribute in children Bean|
+| yes        | yes           | CANNOT initialize parent, HAVE TO define "class" attribute in children Bean)               |
+| no         | yes           | Not use (no application)|
+| no         | no            | Not use (no application)|
 
 ## # Spring Dependency Injection
 
@@ -149,10 +149,10 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYzNDc1NTgsMzMzMTcwNTgyLC0yOT
-YzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2
-Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MT
-MwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUs
-LTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxND
-Y5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbMTU0MjY1MDIxNCwzMzMxNzA1ODIsLTI5Nj
+M3MzQ0MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYy
+Nzg2NiwtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMz
+A1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwt
+MTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Nj
+k3Mjc5MDhdfQ==
 -->

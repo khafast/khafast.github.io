@@ -15,10 +15,11 @@ At first, in Java Spring Core module, there is a  BeanFactory. You can imagine t
 
 > So why using object (Bean) defined in XML Bean Configuration file but not instantiate the objects in source code directly?
 
+Using this approach, you can decou
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MzUzNzcsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbLTM4MjA0NTExMCwxNDY5NzI3OTA4XX0=
 -->

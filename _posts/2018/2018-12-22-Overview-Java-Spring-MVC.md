@@ -20,9 +20,23 @@ Using this approach, you can de-couple dependencies
 > You mentioned about BeanFactory, but what is its relation with ClassPathXmlApplicationContext?
 
 The ClassPathApplicationContext (another objects container) provides additional functionalities over the BeanFactory. For example, you can use getBean function just like with BeanFactory -
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+    <bean id="beanId" class="Object">
+       <property name="message" value="Application Context Example"/>
+    
+   </bean> 
+</beans> 
+```
 ``` java
 ApplicationContext context = new ClassPathXmlApplicationContext("bean-config.xml");
-Object obj = (Object) context.getBean("beanID");
+Object obj = (Object) context.getBean("beanId");
 obj.publicMethod();
 ```
 > Any other bold differences?
@@ -43,6 +57,6 @@ Yes, you are correct,  the most popular methods:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTEwNTcyNzgsLTE4NjUwMzE2NDQsLT
-ExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTQ3OTQyNzQwMywtMTg2NTAzMTY0NCwtMT
+E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

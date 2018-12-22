@@ -124,15 +124,15 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 > Can we re-use it?
 
 > Is there other kind of inheritance?
-
+Yes
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLT
-E4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5
-MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMz
-E2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4
-XX0=
+eyJoaXN0b3J5IjpbMTU2ODUzMTU5NywtMTU2MjI3MDU4NCwtMT
+I4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQz
+MjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNj
+M5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3
+LDE0Njk3Mjc5MDhdfQ==
 -->

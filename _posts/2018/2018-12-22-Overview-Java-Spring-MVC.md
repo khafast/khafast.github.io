@@ -61,13 +61,16 @@ Yes, you are correct,  the most popular methods:
 It is about scope of Beans. The Spring framework has predefined the following scopes:
 
  - singleton (default)
- - prototype (instantia)
+ - prototype (instantiate new object every time getBean method is called)
+ - request (available for)
+ - session ()
+ - global_session
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODg3NjcyNyw1ODgxNDIwOTQsLTEwMD
-c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
-MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbNTkzNTQ0NDIzLDU4ODE0MjA5NCwtMTAwNz
+QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
+MDg3LDE0Njk3Mjc5MDhdfQ==
 -->

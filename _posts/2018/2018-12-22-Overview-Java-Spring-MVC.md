@@ -11,11 +11,11 @@ Windows:
 
 ## ClassPathXmlApplicationContext
 
-In Java Spring
+In Java Spring Core, there is a module named BeanFactory. You can imagine the Bean is like Object in 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA5MTk4NjIsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbNjAyOTI2OTQwLDE0Njk3Mjc5MDhdfQ==
 -->

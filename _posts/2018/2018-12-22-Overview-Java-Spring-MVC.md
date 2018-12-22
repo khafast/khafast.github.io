@@ -1,4 +1,5 @@
-This is my overview note about Java Spring MVC, hope that it could help me and o
+This is my notes about Java Spring MVC. 
+Purpose is to refresh your mehope that it could help you have an overview about Javas Spring MVC.
 
 ## Installation
 Windows:
@@ -11,5 +12,5 @@ Windows:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDAzMDQ1OSwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbMTI3NjEwMzkwMiwxNDY5NzI3OTA4XX0=
 -->

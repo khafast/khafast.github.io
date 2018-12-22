@@ -23,13 +23,13 @@ The ClassPathApplicationContext provides additional functionalities over the Bea
 ``` java
 ApplicationContext context = new ClassPathXmlApplicationContext("bean-config.xml");
 Object obj = (Object) context.getBean("beanID");
-obj.callPuMethod()
+obj.publicMethod();
 ```
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDgwODQ2OSwtODYwNTcwMDg3LDE0Nj
-k3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxND
+Y5NzI3OTA4XX0=
 -->

@@ -102,14 +102,16 @@ Yes, there are over-writable  methods from the call to ready-to-use:
  Also before completely destroyed:
  
 ![a](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_2.png)
-All you have to do is to implement
+All you have to do is to implement one or some of the following interfaces:
 
+ - InitalizingBean, DisposableBean
+ - 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTU1NzY5OSwtMTA0MzI1MTMwNSwtMj
+eyJoaXN0b3J5IjpbLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMj
 A5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUw
 MzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OT
 A4XX0=

@@ -1,5 +1,5 @@
 This is my notes about Java Spring MVC. 
-Purpose is to refresh your mehope that it could help you have an overview about Javas Spring MVC.
+Content is 30 minutes read, its purpose is to refresh your memory if or to have an overview about Javas Spring MVC.
 
 ## Installation
 Windows:
@@ -12,5 +12,5 @@ Windows:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjEwMzkwMiwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbMTc1MTY0NDg5MCwxNDY5NzI3OTA4XX0=
 -->

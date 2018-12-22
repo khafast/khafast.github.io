@@ -33,16 +33,16 @@ ApplicationContext instantiate the object as soon as the ApplicationContext is c
 > About ApplicationContext, as my observation in your example, an ApplicationContext created by ClassPathXmlApplicationContext method. 
 > Is there other methods to instantiate an ApplicationContext?
 
-Yes, you are correct, there is many, the most popular methods:
+Yes, you are correct,  the most popular methods:
 
 - *ClassPathXmlApplicationContext*: Load the Bean configuration xml file from class path (e.g. folder ./src).
-- FileSystemXmlApplicationContext*: Load the Bean configuration xml file from the system file (e.g. folder C:\beans.xml)
-- XmlWebApplicationContext: Load the Bean configuration over the internet.
+- *FileSystemXmlApplicationContext*: Load the Bean configuration xml file from the system file (e.g. folder C:\beans.xml)
+- *XmlWebApplicationContext*: Load the Bean configuration over the internet.
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk4NTg5NzEsLTE4NjUwMzE2NDQsLT
+eyJoaXN0b3J5IjpbLTE4NTEwNTcyNzgsLTE4NjUwMzE2NDQsLT
 ExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

@@ -11,10 +11,11 @@ Windows:
 
 ## ClassPathXmlApplicationContext
 
+In Java Spring
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjczNzM5NiwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTE5MDA5MTk4NjIsMTQ2OTcyNzkwOF19
 -->

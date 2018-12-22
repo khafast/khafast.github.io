@@ -79,13 +79,28 @@ Example:
 >Is it correct?
 
 Yes, you are correct. Following is an example:
-
+```java
+public class TestPrototypeBean {
+       public static void main(String[] args) {
+     
+      ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+      PrototypeBean prototypeBeanA = (PrototypeBean)context.getBean("prototypeBean");
+      System.out.println(prototypeBeanA); 
+      
+      PrototypeBean prototypeBeanB = (PrototypeBean)context.getBean("prototypeBean");
+      System.out.println(prototypeBeanB);
+         
+      System.out.println("Is Prototype Bean A and Prototype B are same ? " +
+          (prototypeBeanA==prototypeBeanB));
+    }
+}
+```
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI2MTk2NTEsNTg4MTQyMDk0LC0xMD
+eyJoaXN0b3J5IjpbLTE2MTI4NDkzMzksNTg4MTQyMDk0LC0xMD
 A3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1
 NzAwODcsMTQ2OTcyNzkwOF19
 -->

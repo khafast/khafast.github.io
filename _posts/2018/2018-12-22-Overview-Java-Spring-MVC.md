@@ -3,13 +3,13 @@ Content is about 30 minutes read, its purpose is:
 - To refresh your memory if you already worked on it. 
 - Or if you are totally new, it will give you an overview, so you can kick start your first Java Spring MVC application.
 
-## Installation
+## # Installation
 Windows:
  - [ ] JDK
  - [ ] Download Spring libraries (then add to build path)
 
 
-## ClassPathXmlApplicationContext
+## # ClassPathXmlApplicationContext
 
 At first, in Java Spring Core module, there is a  Bean Factory (an objects container). You can imagine the Bean is like Object in OOP. BeanFactory allows you to access objects defined in Xml bean configuration file. 
 
@@ -116,13 +116,18 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 <Bean id="beanID" init-method="myCustomInitMethod" destroy-method="myCustomDestroyMethod" class="MyClass" />
 ```
 
+## # Spring Bean Configuration Inheritance
 
-## Common issues
+>
+
+
+## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLT
-I4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgx
-NDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MT
-Q3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTIxMjk4NzY4OTcsLTEyODg2Mjc4NjYsLT
+E4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5
+MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMz
+E2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4
+XX0=
 -->

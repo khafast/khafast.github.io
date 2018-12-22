@@ -97,7 +97,9 @@ public class TestPrototypeBean {
 > Is the Bean aware its container or current session?
 > We might use such information, e.g, for logging.
 
-Yes, there are over-writable  
+Yes, there are over-writable  methods from the call to ready-to-use:
+![](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_1.png)
+ 
 ![a](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_2.png)
 
 
@@ -105,7 +107,7 @@ Yes, there are over-writable
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MDk2NjI3LC0xMDQzMjUxMzA1LC0yMD
+eyJoaXN0b3J5IjpbNTQ1Njc4MTYxLC0xMDQzMjUxMzA1LC0yMD
 kzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAz
 MTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MD
 hdfQ==

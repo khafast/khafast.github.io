@@ -1,5 +1,7 @@
-This is my notes about Java Spring MVC. 
-Content is 30 minutes read, its purpose is to refresh your memory if or to have an overview about Javas Spring MVC.
+This is my notes about **Java Spring MVC**. 
+Content is about 30 minutes read, its purpose is:
+- To refresh your memory if you already worked on it. 
+- Or if you are totally new, it will give you an overview, so you can kick start your first Java Spring MVC application.
 
 ## Installation
 Windows:
@@ -10,7 +12,9 @@ Windows:
 ## ClassPathXmlApplicationContext
 
 
+## Common issues
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTY0NDg5MCwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTcxMjczNzM5NiwxNDY5NzI3OTA4XX0=
 -->

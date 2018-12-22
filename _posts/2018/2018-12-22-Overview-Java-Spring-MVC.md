@@ -17,9 +17,11 @@ At first, in Java Spring Core module, there is a  BeanFactory. You can imagine t
 
 Using this approach, you can de-couple dependencies 
 
+> What is relation of the 
+
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODMwMTQyNSwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTEzMTI0MjMxNzMsMTQ2OTcyNzkwOF19
 -->

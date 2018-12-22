@@ -96,14 +96,16 @@ public class TestPrototypeBean {
 
 > Is the Bean aware its container or current session?
 > We might use such information, e.g, for logging.
-> 
+
+Yes, there are over-writable  
+![a](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_2.png)
 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMjAwMDYwLC0xMDQzMjUxMzA1LC0yMD
+eyJoaXN0b3J5IjpbNTc4MDk2NjI3LC0xMDQzMjUxMzA1LC0yMD
 kzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAz
 MTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MD
 hdfQ==

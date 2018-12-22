@@ -94,13 +94,15 @@ public class TestPrototypeBean {
 }
 ```
 
-> The 
+> Is the Bean aware about its container or its session?
+> 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNT
-g4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2
-NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbLTg4ODk2NzkzNSwtMTA0MzI1MTMwNSwtMj
+A5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUw
+MzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OT
+A4XX0=
 -->

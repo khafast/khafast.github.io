@@ -111,7 +111,7 @@ All you have to do is to implement one or some of the following interfaces:
 
 Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml file like this: 
 ``` xml
-<Bean id="beanID" class >
+<Bean id="beanID" init-method="myCustomInitMethod" destroy-method="myCustomDestroyMethod" class="MyClass" />
 ```
 
 
@@ -119,7 +119,7 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg5NTc5NTQsLTI4MjczMTk4OSwtMT
+eyJoaXN0b3J5IjpbLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMT
 A0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0
 MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MD
 A4NywxNDY5NzI3OTA4XX0=

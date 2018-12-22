@@ -127,9 +127,10 @@ Yes, you can. Let take a look at following example:
 ``` xml
 <bean id="humanBean" class="Human">
     <property name="name" value="TBD"/>
-    <property name="date-of-birth" value="TBD"/>
+    <property name="date-of-birth" value="1900/01/01"/>
 </bean>
-<bean id="studentBean" >
+
+<bean id="studentBean" class="Student" parent="humanBean">
 ```
 
 > Is there other kind of inheritance?
@@ -143,9 +144,9 @@ Yes, there is other kind of inheritances you can do a configuration by your dema
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTkwMzIxOCwtMTk4NjU1MTI3MiwtMT
-U2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgy
-NzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0Mj
-A5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDcz
-NiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTI3MjAzOTkyLC0xOTg2NTUxMjcyLC0xNT
+YyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0yODI3
+MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MTQyMD
+k0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0NzM2
+LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
 -->

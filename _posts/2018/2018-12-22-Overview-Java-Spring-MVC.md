@@ -20,7 +20,6 @@ Using this approach, you can de-couple dependencies
 > You mentioned about BeanFactory, but what is its relation with ClassPathXmlApplicationContext?
 
 The ClassPathApplicationContext provides additional functionalities over the BeanFactory. For example, you can use getBean function just like with BeanFactory -
-
 ``` java
 ApplicationContext context = new ClassPathXmlApplicationContext('bean-config.xml');
 Object obj = (Object) context.getBean('beanID');
@@ -30,5 +29,5 @@ Object obj = (Object) context.getBean('beanID');
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTYyODI5NSwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

@@ -140,16 +140,16 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 |-----------|--------------|-------------------|
 |yes        |no            | CAN initialize both parent and children, DON'T define "class" attribute in children Bean|
 |yes        |yes           | CANNOT initialize parent, HAVE TO define "class" attribute in children Bean)               |
-|no         |yes           | Not use|
-|no         |no            | Not use|
+|no         |yes           | Not use (no application)|
+|no         |no            | Not use (no application)|
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODg0NjM0NiwtMjk2MzczNDQyLC0xOT
-g2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIx
-MDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOT
-E4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0
-LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbMzMzMTcwNTgyLC0yOTYzNzM0NDIsLTE5OD
+Y1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEw
+ODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MT
+gyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQs
+LTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

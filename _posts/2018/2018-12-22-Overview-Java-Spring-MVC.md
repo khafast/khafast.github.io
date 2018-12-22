@@ -143,13 +143,16 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 |no         |yes           | Not use (no application)|
 |no         |no            | Not use (no application)|
 
+## # Spring Dependency Injection
+
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMTcwNTgyLC0yOTYzNzM0NDIsLTE5OD
-Y1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEw
-ODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MT
-gyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQs
-LTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTE4MTYzNDc1NTgsMzMzMTcwNTgyLC0yOT
+YzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2
+Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MT
+MwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUs
+LTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxND
+Y5NzI3OTA4XX0=
 -->

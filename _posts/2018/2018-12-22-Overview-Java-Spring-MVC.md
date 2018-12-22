@@ -109,15 +109,18 @@ All you have to do is to implement one or some of the following interfaces:
 
 > Can I set a custom hook method using .xml file?
 
-Yes, you can set
+Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml file like this: 
+``` xml
+<Bean id="beanID" class >
+```
 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjY4MzYxMiwtMjgyNzMxOTg5LC0xMD
-QzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQz
-NjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMD
-g3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5OTg5NTc5NTQsLTI4MjczMTk4OSwtMT
+A0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0
+MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MD
+A4NywxNDY5NzI3OTA4XX0=
 -->

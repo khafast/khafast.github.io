@@ -25,14 +25,12 @@ ApplicationContext context = new ClassPathXmlApplicationContext("bean-config.xml
 Object obj = (Object) context.getBean("beanID");
 obj.publicMethod();
 ```
-> Is it the only advantage?
-
-It is just 
+> Any other bold
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzE2Njc1LC0xODY1MDMxNjQ0LC0xMT
-k2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbMTY1MjY0MDUyNywtMTg2NTAzMTY0NCwtMT
+E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

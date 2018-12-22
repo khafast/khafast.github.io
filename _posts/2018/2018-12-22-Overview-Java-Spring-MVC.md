@@ -17,11 +17,13 @@ At first, in Java Spring Core module, there is a  BeanFactory. You can imagine t
 
 Using this approach, you can de-couple dependencies 
 
-> What is relation of the 
+> You mentioned about BeanFactory, but what is its relation with ClassPathXmlApplicationContext?
+
+The ClassPathApplicationContext provides additional functionalit
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI0MjMxNzMsMTQ2OTcyNzkwOF19
+eyJoaXN0b3J5IjpbLTE1ODMxMTMxNTUsMTQ2OTcyNzkwOF19
 -->

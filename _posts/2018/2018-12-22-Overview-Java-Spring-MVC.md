@@ -95,14 +95,16 @@ public class TestPrototypeBean {
 ```
 
 > Is the Bean aware its container or current session?
-> we might use those events, for example.
+> We might use such information, e.g, for logging.
+> 
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIyMTQ3MDAsLTEwNDMyNTEzMDUsLT
-IwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1
-MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNz
-kwOF19
+eyJoaXN0b3J5IjpbNDQwMjAwMDYwLC0xMDQzMjUxMzA1LC0yMD
+kzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAz
+MTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MD
+hdfQ==
 -->

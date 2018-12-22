@@ -135,22 +135,21 @@ Yes, you can. Let take a look at following example:
 
 > Is there other kind of inheritance?
 
-Yes, there is other kind of inheritances you can do a configuration by your demand:
+Yes, there is other kind of inheritances you can do a configuration parent Bean by your demand:
 |class attr.|abstract attr.| Desc.  |
 |-----------|--------------|-------------------|
 |yes        |no            | Can initialize both parent and children|
-|yes        |yes           | CANNOT initialize parent               |
-
-|yes        |yes           | CANNOT initialize parent               |
+|yes        |yes           | CANNOT initialize parent (have to define "class" attribute in children Bean)               |
+|no         |yes           | Not use|
+|no         |no            | Not use|
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyMTIwNTEsLTI5NjM3MzQ0MiwtMT
-k4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgy
-MTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMz
-kxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0
-NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ
-==
+eyJoaXN0b3J5IjpbMTM0NzA1MTA1OSwtMjk2MzczNDQyLC0xOT
+g2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIx
+MDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOT
+E4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0
+LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
 -->

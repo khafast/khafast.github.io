@@ -20,6 +20,8 @@ Using this approach, you can de-couple dependencies
 > You mentioned about BeanFactory, but what is its relation with ClassPathXmlApplicationContext?
 
 The ClassPathApplicationContext (another objects container) provides additional functionalities over the BeanFactory. For example, you can use getBean function just like with BeanFactory -
+
+./bean-config.xml
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
  
@@ -30,7 +32,6 @@ The ClassPathApplicationContext (another objects container) provides additional 
  
     <bean id="beanId" class="Object">
        <property name="message" value="Application Context Example"/>
-    
    </bean> 
 </beans> 
 ```
@@ -57,6 +58,6 @@ Yes, you are correct,  the most popular methods:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTQyNzQwMywtMTg2NTAzMTY0NCwtMT
+eyJoaXN0b3J5IjpbLTg1NTY2MTc3NCwtMTg2NTAzMTY0NCwtMT
 E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

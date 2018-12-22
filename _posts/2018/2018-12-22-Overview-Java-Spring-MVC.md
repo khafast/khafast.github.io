@@ -56,13 +56,14 @@ Yes, you are correct,  the most popular methods:
 - *FileSystemXmlApplicationContext*: Load from the system file (e.g. folder C:\beans.xml)
 - *XmlWebApplicationContext*: Load over the internet.
 
->
+> In my imagination, each Bean defined in the XML file has an ID. Is it Singleton Bean (Object)?
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2ODE1Njc0LDU4ODE0MjA5NCwtMTAwNz
-QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
-MDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTI3NDIwMTU3OSw1ODgxNDIwOTQsLTEwMD
+c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
+MDA4NywxNDY5NzI3OTA4XX0=
 -->

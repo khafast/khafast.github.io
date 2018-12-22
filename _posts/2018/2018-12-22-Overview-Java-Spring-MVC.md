@@ -67,19 +67,22 @@ It is about scope of Beans. The Spring framework has predefined the following sc
  - global_session (different for each session)
 Example:
 ``` xml
-<Bean id="singletonBean1" scope="singleton" class="SingletonClass"/>
-<Bean id="singletonBean2" singleton="true" class="SingletonClass"/>
-<Bean id="singletonBean" class="Singleton"
+<Bean id="singletonBean" class="MyClass"/>
+<Bean id="singletonBean1" scope="singleton" class="MyClass"/>
+<Bean id="singletonBean2" singleton="true" class="MyClass"/>
 
-<Bean id="prototypeBean1" scope="prototype" class="PrototypeClass"/>
-<Bean id="prototypeBean2" singleton="false" class="PrototypeClass"/>
+<Bean id="prototypeBean1" scope="prototype" class="MyClass"/>
+<Bean id="prototypeBean2" singleton="false" class="MyClass"/>
 ```
+
+> Type of bea
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NzQyNjIzLDU4ODE0MjA5NCwtMTAwNz
-QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
-MDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbMTE1MDI2MzY5MCw1ODgxNDIwOTQsLTEwMD
+c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
+MDA4NywxNDY5NzI3OTA4XX0=
 -->

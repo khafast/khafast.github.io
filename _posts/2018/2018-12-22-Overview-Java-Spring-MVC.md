@@ -75,14 +75,17 @@ Example:
 <Bean id="prototypeBean2" singleton="false" class="MyClass"/>
 ```
 
-> Type of bea
+> Type of Beans is defined in "class" attribute, I guess that we have to cast the result to desired class when using getBean method (of ApplicationContext). 
+>Is it correct?
+
+Yes, you are correct. Following is an example:
 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDI2MzY5MCw1ODgxNDIwOTQsLTEwMD
-c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
-MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTEwMDI2MTk2NTEsNTg4MTQyMDk0LC0xMD
+A3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1
+NzAwODcsMTQ2OTcyNzkwOF19
 -->

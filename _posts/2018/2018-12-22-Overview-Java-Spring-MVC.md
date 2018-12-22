@@ -136,17 +136,21 @@ Yes, you can. Let take a look at following example:
 > Is there other kind of inheritance?
 
 Yes, there is other kind of inheritances you can do a configuration by your demand:
-|class attr.|abstract attr.| |
-|---|--|-------------------|
-|yes|no| Can initialize both parent and children|
+|class attr.|abstract attr.| Desc.  |
+|-----------|--------------|-------------------|
+|yes        |no            | Can initialize both parent and children|
+|yes        |yes           | CANNOT initialize parent               |
+
+|yes        |yes           | CANNOT initialize parent               |
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjM3MzQ0MiwtMTk4NjU1MTI3MiwtMT
-U2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgy
-NzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0Mj
-A5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDcz
-NiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTExODIyMTIwNTEsLTI5NjM3MzQ0MiwtMT
+k4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgy
+MTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMz
+kxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0
+NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ
+==
 -->

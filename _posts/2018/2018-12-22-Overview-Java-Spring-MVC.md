@@ -120,13 +120,16 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 
 > Can we re-use some configuration in Bean configuration file?
 > For an example, we have Students, Teachers, Professors. 
-> They are all human so they all have name and year-of-birth. 
+> They are all human so they all have name and date-of-birth. 
 > Can we re-use it?
 
 Yes, you can. Let take a look at following example:
 ``` xml
-<bean id="humanBean" class="Human"/>
-<
+<bean id="humanBean" class="Human">
+    <property name="name" value="TBD"/>
+    <property name="date-of-birth" value="TBD"/>
+</bean>
+<bean id="studentBean" >
 ```
 
 > Is there other kind of inheritance?
@@ -140,9 +143,9 @@ Yes, there is other kind of inheritances you can do a configuration by your dema
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMzNTgyMDMsLTE5ODY1NTEyNzIsLT
-E1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLTI4
-MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxND
-IwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3
-MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTg4MTkwMzIxOCwtMTk4NjU1MTI3MiwtMT
+U2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgy
+NzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0Mj
+A5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDcz
+NiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

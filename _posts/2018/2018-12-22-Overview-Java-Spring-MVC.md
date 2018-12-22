@@ -21,7 +21,7 @@ Using this approach, you can de-couple dependencies
 
 The ClassPathApplicationContext (another objects container) provides additional functionalities over the BeanFactory. For example, you can use getBean function just like with BeanFactory -
 
-./bean-config.xml
+./src/bean-config.xml
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
  
@@ -35,12 +35,14 @@ The ClassPathApplicationContext (another objects container) provides additional 
    </bean> 
 </beans> 
 ```
+./src/test_application_context.java
 ``` java
 ApplicationContext context = new ClassPathXmlApplicationContext("bean-config.xml");
 Object obj = (Object) context.getBean("beanId");
 obj.publicMethod();
 ```
-> Any other bold differences?
+
+> About advantages of ApplicationContext over the BeanFactor, beside the additional functionalities, any other bold differences?
 
 BeanFactory is lazy loading, it only instantiate the object after calling getBean() method and call a method in the object.
 ApplicationContext instantiate the object as soon as the ApplicationContext is created.
@@ -58,6 +60,6 @@ Yes, you are correct,  the most popular methods:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTY2MTc3NCwtMTg2NTAzMTY0NCwtMT
-E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwODAwNjcyNTAsLTE4NjUwMzE2NDQsLT
+ExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

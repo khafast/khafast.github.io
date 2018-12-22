@@ -123,6 +123,8 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 > They are all human so they all have name and year-of-birth. 
 > Can we re-use it?
 
+
+
 > Is there other kind of inheritance?
 
 Yes, there is other kind of inheritances you can do a configuration by your demand:
@@ -134,9 +136,9 @@ Yes, there is other kind of inheritances you can do a configuration by your dema
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLT
-EyODg2Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0
-MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0Mz
-YzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4
-NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbMTM5MTUzOTkwMCwtMTk4NjU1MTI3MiwtMT
+U2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgy
+NzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0Mj
+A5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDcz
+NiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

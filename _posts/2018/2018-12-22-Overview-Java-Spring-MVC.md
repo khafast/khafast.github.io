@@ -65,12 +65,17 @@ It is about scope of Beans. The Spring framework has predefined the following sc
  - request (different for each request)
  - session (different for each session)
  - global_session (different for each session)
+Example:
+``` xml
+<Bean id="singletonBean" scope="singleton" class="SingletonClass"/>
+<Bean id="singletonBean" singleton="true" class="SingletonClass"/>
+```
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTg1OTExOSw1ODgxNDIwOTQsLTEwMD
+eyJoaXN0b3J5IjpbLTM4NzY3NTQ3NCw1ODgxNDIwOTQsLTEwMD
 c0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3
 MDA4NywxNDY5NzI3OTA4XX0=
 -->

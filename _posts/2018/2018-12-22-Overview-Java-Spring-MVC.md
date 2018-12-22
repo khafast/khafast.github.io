@@ -56,11 +56,13 @@ Yes, you are correct,  the most popular methods:
 - *FileSystemXmlApplicationContext*: Load from the system file (e.g. folder C:\beans.xml)
 - *XmlWebApplicationContext*: Load over the internet.
 
+>
+
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
-Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
-NzkwOF19
+eyJoaXN0b3J5IjpbNTk2ODE1Njc0LDU4ODE0MjA5NCwtMTAwNz
+QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
+MDg3LDE0Njk3Mjc5MDhdfQ==
 -->

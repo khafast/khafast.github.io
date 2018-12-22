@@ -11,13 +11,14 @@ Windows:
 
 ## ClassPathXmlApplicationContext
 
-In Java Spring Core, there is a module named BeanFactory. You can imagine the Bean is like Object in OOP. BeanFactory allows you to access objects defined in Xml bean configuration file. 
+At first, in Java Spring Core module, there is a  BeanFactory. You can imagine the Bean is like Object in OOP. BeanFactory allows you to access objects defined in Xml bean configuration file. 
 
-> So why using object (Bean) defined in xml file but not instantiate the objects in source code directly?
+> So why using object (Bean) defined in XML Bean Configuration file but not instantiate the objects in source code directly?
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODA1OTQ1NSwxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbNjY4MzUzNzcsMTQ2OTcyNzkwOF19
 -->

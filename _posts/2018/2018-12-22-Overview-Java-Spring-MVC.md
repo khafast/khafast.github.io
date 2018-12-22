@@ -25,12 +25,15 @@ ApplicationContext context = new ClassPathXmlApplicationContext("bean-config.xml
 Object obj = (Object) context.getBean("beanID");
 obj.publicMethod();
 ```
-> Any other bold
+> Any other bold differences?
+
+BeanFactory is lazy loading, it only instantiate the object after calling getBean() method and call a method in the object.
+ApplicationContext is no
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjY0MDUyNywtMTg2NTAzMTY0NCwtMT
-E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwMjM4NTU0MTMsLTE4NjUwMzE2NDQsLT
+ExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

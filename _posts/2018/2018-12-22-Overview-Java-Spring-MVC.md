@@ -30,12 +30,16 @@ obj.publicMethod();
 BeanFactory is lazy loading, it only instantiate the object after calling getBean() method and call a method in the object.
 ApplicationContext instantiate the object as soon as the ApplicationContext is created.
 
-> You mentioned ApplicationContext, as my observation in your example, an ApplicationContext was created by ClassPathXmlApplicationContext method. Is there any other method to instantiate an ApplicationContext?
+> About ApplicationContext, as my observation in your example, an ApplicationContext created by ClassPathXmlApplicationContext method. 
+> Is there other methods to instantiate an ApplicationContext?
+
+Yes, you are correct, there is many, the most popular methods:
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjYyNTM1NSwtMTg2NTAzMTY0NCwtMT
-E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbNTkwMDU2NDUwLC0xODY1MDMxNjQ0LC0xMT
+k2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
 -->

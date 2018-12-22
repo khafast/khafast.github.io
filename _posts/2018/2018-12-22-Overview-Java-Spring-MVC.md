@@ -35,12 +35,14 @@ ApplicationContext instantiate the object as soon as the ApplicationContext is c
 
 Yes, you are correct, there is many, the most popular methods:
 
-- Class 
+- ClassPathXmlApplicationContext: Load the Bean configuration xml file from class path ()
+- FileSystemXmlApplicationContext
+- XmlWebApplicationContext
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzE0OTE3MywtMTg2NTAzMTY0NCwtMT
+eyJoaXN0b3J5IjpbLTgzMjgxMTEwNSwtMTg2NTAzMTY0NCwtMT
 E5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
 -->

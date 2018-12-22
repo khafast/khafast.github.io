@@ -105,14 +105,19 @@ Yes, there are over-writable  methods from the call to ready-to-use:
 All you have to do is to implement one or some of the following interfaces:
 
  - InitalizingBean, DisposableBean
- - 
+ - ApplicationContextAware, BeanNameAware, BeanFactoryAware
+
+> Can I set a custom hook method using .xml file?
+
+Yes, you can set
+
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMj
-A5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUw
-MzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OT
-A4XX0=
+eyJoaXN0b3J5IjpbLTQ5NjY4MzYxMiwtMjgyNzMxOTg5LC0xMD
+QzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQz
+NjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMD
+g3LDE0Njk3Mjc5MDhdfQ==
 -->

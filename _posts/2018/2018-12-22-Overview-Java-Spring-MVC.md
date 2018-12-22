@@ -98,17 +98,19 @@ public class TestPrototypeBean {
 > We might use such information, e.g, for logging.
 
 Yes, there are over-writable  methods from the call to ready-to-use:
-![](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_1.png)
+![From instantiation to ready to use](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_1.png)
+ Also before completely destroyed:
  
 ![a](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_2.png)
+All you have to do is to implement
 
 
 ## Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1Njc4MTYxLC0xMDQzMjUxMzA1LC0yMD
-kzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAz
-MTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MD
-hdfQ==
+eyJoaXN0b3J5IjpbLTM0NTU1NzY5OSwtMTA0MzI1MTMwNSwtMj
+A5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUw
+MzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OT
+A4XX0=
 -->

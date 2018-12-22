@@ -67,12 +67,12 @@ It is about scope of Beans. The Spring framework has predefined the following sc
  - global_session (different for each session)
 Example:
 ``` xml
-<Bean id="singletonBean" class="MyClass"/>
-<Bean id="singletonBean1" scope="singleton" class="MyClass"/>
-<Bean id="singletonBean2" singleton="true" class="MyClass"/>
+<bean id="singletonBean" class="MyClass"/>
+<bean id="singletonBean1" scope="singleton" class="MyClass"/>
+<bean id="singletonBean2" singleton="true" class="MyClass"/>
 
-<Bean id="prototypeBean1" scope="prototype" class="MyClass"/>
-<Bean id="prototypeBean2" singleton="false" class="MyClass"/>
+<bean id="prototypeBean1" scope="prototype" class="MyClass"/>
+<bean id="prototypeBean2" singleton="false" class="MyClass"/>
 ```
 
 > Type of Beans is defined in "class" attribute, I guess that we have to cast the result to desired class when using getBean method (of ApplicationContext). 
@@ -113,7 +113,7 @@ All you have to do is to implement one or some of the following interfaces:
 
 Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml file like this: 
 ``` xml
-<Bean id="beanID" init-method="myCustomInitMethod" destroy-method="myCustomDestroyMethod" class="MyClass" />
+<bean id="beanID" init-method="myCustomInitMethod" destroy-method="myCustomDestroyMethod" class="MyClass" />
 ```
 
 ## # Spring Bean Configuration Inheritance
@@ -123,7 +123,11 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 > They are all human so they all have name and year-of-birth. 
 > Can we re-use it?
 
-
+Yes, you can. Let take a look at following example:
+``` xml
+<bean id="humanBean" class="Human"/>
+<
+```
 
 > Is there other kind of inheritance?
 
@@ -136,9 +140,9 @@ Yes, there is other kind of inheritances you can do a configuration by your dema
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTUzOTkwMCwtMTk4NjU1MTI3MiwtMT
-U2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgy
-NzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0Mj
-A5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDcz
-NiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NjMzNTgyMDMsLTE5ODY1NTEyNzIsLT
+E1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLTI4
+MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxND
+IwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3
+MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
 -->

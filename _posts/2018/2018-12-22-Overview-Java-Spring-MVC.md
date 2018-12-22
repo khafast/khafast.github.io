@@ -99,6 +99,7 @@ public class TestPrototypeBean {
 
 Yes, there are over-writable  methods from the call to ready-to-use:
 ![From instantiation to ready to use](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_1.png)
+
  Also before completely destroyed:
  
 ![a](https://www.wideskills.com/sites/default/files/subjects/Spring%20Tutorial/Chapter%20-%2007/Image_2.png)
@@ -120,7 +121,7 @@ Yes, you can change `init-method` and/or `destroy-method` attributes in the .xml
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMwNDA4MTIsLTE4MjEwODAwMjYsLT
+eyJoaXN0b3J5IjpbLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLT
 I4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgx
 NDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MT
 Q3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=

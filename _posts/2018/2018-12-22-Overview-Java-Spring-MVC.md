@@ -228,17 +228,22 @@ bean-config.xml
 <bean id="beanId" class="ConnectionUtil" factory-method="getInstance"/>
 ```
 
-> Can we apply this approach for 
+> Can we apply this approach for instance factory method?
+> Something like relationship between a CarFactory and a Car
+
+``` java
+java 
+```
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDkwNTU5Miw5MTkyNzg2ODgsLTEzNz
-I0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUw
-MjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC
-0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0y
-ODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MT
-QyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0
-NzM2LC04NjA1NzAwODddfQ==
+eyJoaXN0b3J5IjpbLTE3OTI0MTE5MDMsMTcwMDkwNTU5Miw5MT
+kyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2
+OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC
+0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0x
+ODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOT
+MzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMx
+NjQ0LC0xMTk2NzE0NzM2XX0=
 -->

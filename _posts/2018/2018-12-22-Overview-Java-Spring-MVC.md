@@ -303,27 +303,34 @@ public class DataSource {
 }
 ```
 ``` xml
-
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+       <bean id="datasource" class="DataSource">             
+              <property name="dbProperties">
+                     <props>
+                           <prop key="username">root</prop>
+                           <prop key="password"></prop>
+                           <prop key="host">localhost</prop>
+                           <prop key="port">3306</prop>
+                     </props>            
+              </property>
+        </bean>
+</beans>
 ```
-``` xml
 
-```
-``` xml
-
-```
-``` xml
-
-```	
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMzOTMwNzEsMTQxODQzNDUwMCw3OT
-UwNjk5MjcsMTcwMDkwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQz
-MjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LD
-MzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYy
-MjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0yODI3Mz
-E5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MTQyMDk0
-LC0xMDA3NDM2Mzk1XX0=
+eyJoaXN0b3J5IjpbMTg4NjM3NzgzMCwxNDE4NDM0NTAwLDc5NT
+A2OTkyNywxNzAwOTA1NTkyLDkxOTI3ODY4OCwtMTM3MjQ3NDMy
+OCwtNTEyOTQ1NjQwLC0xOTIxODY5NjEyLDE1NDI2NTAyMTQsMz
+MzMTcwNTgyLC0yOTYzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIy
+NzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMT
+k4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQs
+LTEwMDc0MzYzOTVdfQ==
 -->

@@ -146,16 +146,17 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 ## # Spring Dependency Injection
 
-> As I look in the Bean configuration (.xml file), each Bean (object) associated with an ID, you can initialize Bean's (object's) properties using `<property>` tag. The property must be published and has `get` and `set` methods associated with it.
+> As I look in the Bean configuration (.xml file), each Bean (object) has an ID, you can initialize Bean's (object's) properties using `<property>` tag. 
+> The property name must be published and has `get` and `set` methods associated with it.
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4MDUzMjkzLC0xOTIxODY5NjEyLDE1ND
-I2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLTE5ODY1NTEy
-NzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEwODAwMj
-YsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1
-ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOT
-Y3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3OTA4XX0=
+eyJoaXN0b3J5IjpbLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNT
+QyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUx
+MjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMD
+I2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4Mjgs
+NTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMT
+k2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
 -->

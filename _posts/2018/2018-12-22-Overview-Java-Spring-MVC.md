@@ -146,16 +146,16 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 ## # Spring Dependency Injection
 
-> 
+> As I look in the Bean configuration file, 
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2Mzk1NjYsLTE5MjE4Njk2MTIsMTU0Mj
-Y1MDIxNCwzMzMxNzA1ODIsLTI5NjM3MzQ0MiwtMTk4NjU1MTI3
-MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNi
-wtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4
-ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0NCwtMTE5Nj
-cxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbMTkyODE1MjY1OCwtMTkyMTg2OTYxMiwxNT
+QyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUx
+MjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMD
+I2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4Mjgs
+NTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMT
+k2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkwOF19
 -->

@@ -214,8 +214,11 @@ public class ConnectionUtil{
    private Connection instance;
    private ConnectionUtil() {
    }
-   public getInstance() {
+   public Connection getInstance() {
        return instance;   
+   }
+   public String justAnotherMethod() {
+       return "String";
    }
 }
 ```
@@ -228,7 +231,7 @@ public class ConnectionUtil{
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjAxNDcxNSw5MTkyNzg2ODgsLTEzNz
+eyJoaXN0b3J5IjpbLTUyNzI3OTc3Niw5MTkyNzg2ODgsLTEzNz
 I0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUw
 MjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC
 0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0y

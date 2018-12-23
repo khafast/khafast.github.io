@@ -270,12 +270,24 @@ Yes, they are. Following are examples:
             <value>State 1</value>
             <value>State 2</value>
             <value ref="stateBeanId3" />
-            <value ref="stateBeanId3" />
+            <value ref="stateBeanId4" />
         </list>
      </property>
-     <property>
+     <property name="stateNameSet">
          <set>
-             <
+            <value>State 1</value>
+            <value>State 2</value>
+            <value ref="stateBeanId3" />
+            <value ref="stateBeanId4" />
+         </set>
+     </property>
+     <property name="stateNameSet">
+         <set>
+            <value>State 1</value>
+            <value>State 2</value>
+            <value ref="stateBeanId3" />
+            <value ref="stateBeanId4" />
+         </set>
      </property>
 </bean> 
 ```
@@ -296,11 +308,11 @@ Yes, they are. Following are examples:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjExNjAxLDc5NTA2OTkyNywxNzAwOT
-A1NTkyLDkxOTI3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQw
-LC0xOTIxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOT
-YzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2
-Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MT
-MwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUs
-LTE4NjUwMzE2NDRdfQ==
+eyJoaXN0b3J5IjpbLTE0OTU5OTY5ODEsNzk1MDY5OTI3LDE3MD
+A5MDU1OTIsOTE5Mjc4Njg4LC0xMzcyNDc0MzI4LC01MTI5NDU2
+NDAsLTE5MjE4Njk2MTIsMTU0MjY1MDIxNCwzMzMxNzA1ODIsLT
+I5NjM3MzQ0MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4
+ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMj
+UxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5
+NSwtMTg2NTAzMTY0NF19
 -->

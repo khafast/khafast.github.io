@@ -178,10 +178,14 @@ bean-config.xml
     <property name="teacherName" value="Ramond"/>
 </bean>
 ```
-If `getBean("roomBeanId")` executed, a new room will be created by the IoC at run-time:
+If `getBean("roomBeanId")` executed, a new room will be created by the IoC at run-time, I write an example to explain what happened in the background.
+
 ``` java
-Object object = new Room(10);
-((Room)object).setTeacherName("Ramond")
+public getBean() {
+     Object object = new Room(10);
+     ((Room)object).setTeacherName("Ramond");
+     return object;
+}
 ```
 
 > So can we use a **custom defined class** in properties or the constructor parameters.
@@ -202,7 +206,7 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTI4MTg5LC01MTI5NDU2NDAsLTE5Mj
+eyJoaXN0b3J5IjpbMTQ1MTQxOTQwLC01MTI5NDU2NDAsLTE5Mj
 E4Njk2MTIsMTU0MjY1MDIxNCwzMzMxNzA1ODIsLTI5NjM3MzQ0
 MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2Ni
 wtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0y

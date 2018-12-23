@@ -282,12 +282,9 @@ Yes, they are. Following are examples:
          </set>
      </property>
      <property name="stateNameMap">
-         <set>
-            <value>State 1</value>
-            <value>State 2</value>
-            <value ref="stateBeanId3" />
-            <value ref="stateBeanId4" />
-         </set>
+         <map>
+            <entry key="code" value="+84"/>
+         </map>
      </property>
 </bean> 
 ```
@@ -308,7 +305,7 @@ Yes, they are. Following are examples:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2MjUzNTA5LDc5NTA2OTkyNywxNzAwOT
+eyJoaXN0b3J5IjpbMzQwNzc2Mjc4LDc5NTA2OTkyNywxNzAwOT
 A1NTkyLDkxOTI3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQw
 LC0xOTIxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOT
 YzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2

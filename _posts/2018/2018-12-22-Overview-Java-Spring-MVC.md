@@ -154,7 +154,7 @@ room.java
 ```java
 class Room{
     private int roomSize;
-    private int teacherName;
+    private String teacherName;
     
     Room(int roomSize) {
         this.roomSize = roomSize;    
@@ -164,7 +164,10 @@ class Room{
     }
     public int getTeacherName() {
         return teacherName;
-      }
+    }
+    public int setTeacherName(String teacherName) {
+        this.teacherName = teacherName;
+    }
 }
 ```
 
@@ -175,6 +178,8 @@ bean-config.xml
     <property name="teacherName" value="Ramond"/>
 </bean>
 ```
+The Bean 
+
 
 > So can we use a **custom defined class** in properties or the constructor parameters.
 
@@ -194,11 +199,11 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA2Mjc1MjgsLTUxMjk0NTY0MCwtMT
-kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
-NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
-Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs
-LTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
-Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
-NzkwOF19
+eyJoaXN0b3J5IjpbMjAwNjUyMDI1MSwtNTEyOTQ1NjQwLC0xOT
+IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
+NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
+YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt
+MjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4Nj
+UwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3
+OTA4XX0=
 -->

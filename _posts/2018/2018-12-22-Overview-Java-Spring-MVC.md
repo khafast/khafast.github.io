@@ -178,8 +178,7 @@ bean-config.xml
     <property name="teacherName" value="Ramond"/>
 </bean>
 ```
-The Bean 
-
+If `getBean("roomBeanId")` executed, a new room will be created by the IoC at runt
 
 > So can we use a **custom defined class** in properties or the constructor parameters.
 
@@ -199,7 +198,7 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjUyMDI1MSwtNTEyOTQ1NjQwLC0xOT
+eyJoaXN0b3J5IjpbLTY3OTQxOTMwOSwtNTEyOTQ1NjQwLC0xOT
 IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
 NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
 YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt

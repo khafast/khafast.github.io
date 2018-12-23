@@ -193,7 +193,7 @@ public Object getBean(String beanId) {
 
 > So can we use a **custom defined class** in properties or the constructor parameters.
 
-Yes, we can achieve it by using constructor argument reference or setter reference like bellow:
+Yes, we can achieve it by using constructor argument reference and/or setter reference like bellow:
 ``` xml
 <bean id="roomBeanId" class="Room">
     <constructor-arg value="10"/>
@@ -209,11 +209,11 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMT
-kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
-NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
-Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs
-LTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
-Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
-NzkwOF19
+eyJoaXN0b3J5IjpbOTE5Mjc4Njg4LC0xMzcyNDc0MzI4LC01MT
+I5NDU2NDAsLTE5MjE4Njk2MTIsMTU0MjY1MDIxNCwzMzMxNzA1
+ODIsLTI5NjM3MzQ0MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NC
+wtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0x
+MDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNz
+QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
+MDg3LDE0Njk3Mjc5MDhdfQ==
 -->

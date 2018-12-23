@@ -181,7 +181,8 @@ bean-config.xml
 If `getBean("roomBeanId")` executed, a new room will be created by the IoC at run-time, I write an example to explain what happened in the background.
 
 ``` java
-public getBean() {
+public Object getBean(String beanId) {
+     ...
      Object object = new Room(10);
      ((Room)object).setTeacherName("Ramond");
      return object;
@@ -206,11 +207,11 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTQxOTQwLC01MTI5NDU2NDAsLTE5Mj
-E4Njk2MTIsMTU0MjY1MDIxNCwzMzMxNzA1ODIsLTI5NjM3MzQ0
-MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2Ni
-wtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0y
-MDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NT
-AzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcwMDg3LDE0Njk3Mjc5
-MDhdfQ==
+eyJoaXN0b3J5IjpbMTg4MDc2Njg1NywtNTEyOTQ1NjQwLC0xOT
+IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
+NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
+YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt
+MjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4Nj
+UwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3
+OTA4XX0=
 -->

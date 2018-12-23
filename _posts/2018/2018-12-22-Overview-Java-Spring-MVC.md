@@ -232,18 +232,27 @@ bean-config.xml
 > Something like relationship between a CarFactory and a Car
 
 ``` java
-java 
+public class Car {
+    private String name;
+    private String color;
+}
+```
+``` java
+public class CarFactory {
+    private name;
+    
+}
 ```
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI0MTE5MDMsMTcwMDkwNTU5Miw5MT
-kyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2
-OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC
-0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0x
-ODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOT
-MzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMx
-NjQ0LC0xMTk2NzE0NzM2XX0=
+eyJoaXN0b3J5IjpbOTE4NTI0ODQsMTcwMDkwNTU5Miw5MTkyNz
+g2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYx
+MiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOT
+g2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIx
+MDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOT
+E4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0
+LC0xMTk2NzE0NzM2XX0=
 -->

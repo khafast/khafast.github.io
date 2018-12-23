@@ -205,15 +205,22 @@ Yes, we can achieve it by using constructor argument reference and/or setter ref
 </bean>
 ```
 
+> What if a class is singleton, could not be instantiated (there is method to get a singleton instance)?
+
+You can use factory-method` tag
+```
+
+```
+
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5Mjc4Njg4LC0xMzcyNDc0MzI4LC01MT
-I5NDU2NDAsLTE5MjE4Njk2MTIsMTU0MjY1MDIxNCwzMzMxNzA1
-ODIsLTI5NjM3MzQ0MiwtMTk4NjU1MTI3MiwtMTU2MjI3MDU4NC
-wtMTI4ODYyNzg2NiwtMTgyMTA4MDAyNiwtMjgyNzMxOTg5LC0x
-MDQzMjUxMzA1LC0yMDkzMzkxODI4LDU4ODE0MjA5NCwtMTAwNz
-QzNjM5NSwtMTg2NTAzMTY0NCwtMTE5NjcxNDczNiwtODYwNTcw
-MDg3LDE0Njk3Mjc5MDhdfQ==
+eyJoaXN0b3J5IjpbMTUyMDgwMzUxMyw5MTkyNzg2ODgsLTEzNz
+I0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUw
+MjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC
+0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0y
+ODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MT
+QyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0
+NzM2LC04NjA1NzAwODddfQ==
 -->

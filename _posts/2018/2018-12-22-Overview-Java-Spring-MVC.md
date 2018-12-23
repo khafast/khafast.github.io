@@ -150,18 +150,18 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 > The property name must be published and has `get` and `set` methods associated with it.
 > The question is, can we initialize a Bean (object) if `class` can be initialized by constructor which has arguments?
 
-> So can we use a **custom defined class** in the constructor parameter or in setter property.
+> So can we use a **custom defined class** in the constructor parameter or property.
 >
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM0NTU0OTgsLTUxMjk0NTY0MCwtMT
-kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
-NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
-Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs
-LTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
-Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
-NzkwOF19
+eyJoaXN0b3J5IjpbMjg5MjcxMDAsLTUxMjk0NTY0MCwtMTkyMT
+g2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQy
+LC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC
+0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIw
+OTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MD
+MxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkw
+OF19
 -->

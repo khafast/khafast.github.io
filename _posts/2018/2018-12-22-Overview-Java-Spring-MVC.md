@@ -150,14 +150,18 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 > The property name must be published and has `get` and `set` methods associated with it.
 > Can we initialize a Bean (object) if `class` constructor has many arguments?
 
+room.java
+```java
+class demo {
+    
+}
+```
+
+bean-config.xml
 ``` xml
 <bean id="roomBeanId" class="Room">
     <constructor-arg value="10"/>
-    <property ref="teacherBeanId" value=""/>
-</bean>
-
-<bean id="teacherBeanId" class="Teacher">
-    <property name="name" value="Raymond"/>
+    <property name="teacherName" value="Ramond"/>
 </bean>
 ```
 
@@ -179,11 +183,11 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTgwNTkyOSwtNTEyOTQ1NjQwLC0xOT
-IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
-NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
-YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt
-MjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4Nj
-UwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3
-OTA4XX0=
+eyJoaXN0b3J5IjpbLTIxMzUwNzQzMDIsLTUxMjk0NTY0MCwtMT
+kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
+NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
+Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs
+LTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xOD
+Y1MDMxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcy
+NzkwOF19
 -->

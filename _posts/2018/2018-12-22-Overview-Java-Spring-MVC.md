@@ -258,13 +258,18 @@ public class CarFactory {
 
 ```
 
+## # Injecting collections in Spring
+
+> How about collections? Do List, Set, Map, and Props supported?
+
+Yes, they are. 
 
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjcyOTUzOSw3OTUwNjk5MjcsMTcwMD
+eyJoaXN0b3J5IjpbMTQyODY0MTY4MSw3OTUwNjk5MjcsMTcwMD
 kwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0
 MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMj
 k2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4

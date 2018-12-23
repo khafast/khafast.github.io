@@ -127,7 +127,7 @@ Yes, you can. Let take a look at following example:
 ``` xml
 <bean id="humanBean" class="Human">
     <property name="name" value="TBD"/>
-    <property name="date-of-birth" value="1900/01/01"/>
+    <property name="dateOfBirth" value="1900/01/01"/>
 </bean>
 
 <bean id="studentBean" parent="humanBean">
@@ -146,13 +146,13 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 ## # Spring Dependency Injection
 
-> As I look in the Bean configuration (.xml file), each Bean (object) associated with an ID, you can initialize Be
+> As I look in the Bean configuration (.xml file), each Bean (object) associated with an ID, you can initialize Bean's (object's) properties using `<property>` tag. The name 
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDE5NTY1NSwtMTkyMTg2OTYxMiwxNT
+eyJoaXN0b3J5IjpbMTIyODU4MDQ0MCwtMTkyMTg2OTYxMiwxNT
 QyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUx
 MjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMD
 I2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4Mjgs

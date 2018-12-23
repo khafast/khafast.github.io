@@ -250,7 +250,11 @@ public class CarFactory {
 ```
 
 ``` xml
-<bean id="carFactoryBeanId"> 
+<bean id="carFactoryBeanId" class="CarFactory"> 
+    <constructor-arg value="CarFast"/>
+</bean>
+
+<bean id="carBeanId" class="Car" factory-bean=""
 
 ```
 
@@ -258,7 +262,7 @@ public class CarFactory {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTg5MDMwMCwxNzAwOTA1NTkyLDkxOT
+eyJoaXN0b3J5IjpbLTMxMTA3MTYwOCwxNzAwOTA1NTkyLDkxOT
 I3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQwLC0xOTIxODY5
 NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLT
 E5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4

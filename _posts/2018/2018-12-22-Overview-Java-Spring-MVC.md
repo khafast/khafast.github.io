@@ -146,13 +146,13 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 ## # Spring Dependency Injection
 
-> As I look in the Bean configuration file, 
+> As I look in the Bean configuration (.xml file), each Bean (object) associated with an ID, you can initialize Be
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODE1MjY1OCwtMTkyMTg2OTYxMiwxNT
+eyJoaXN0b3J5IjpbMjExMDE5NTY1NSwtMTkyMTg2OTYxMiwxNT
 QyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUx
 MjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMD
 I2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4Mjgs

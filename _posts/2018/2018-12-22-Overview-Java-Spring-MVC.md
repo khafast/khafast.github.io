@@ -281,9 +281,10 @@ Yes, they are. Following are examples:
             <value ref="stateBeanId4" />
          </set>
      </property>
-     <property name="stateNameMap">
+     <property name="stateCode">
          <map>
-            <entry key="code" value="+84"/>
+            <entry key="stateName" value="+84"/>
+            <entry key-ref="stateBeanId" value-ref="+84"/>
          </map>
      </property>
 </bean> 
@@ -305,11 +306,11 @@ Yes, they are. Following are examples:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNzc2Mjc4LDc5NTA2OTkyNywxNzAwOT
-A1NTkyLDkxOTI3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQw
-LC0xOTIxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOT
-YzNzM0NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2
-Mjc4NjYsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MT
-MwNSwtMjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUs
-LTE4NjUwMzE2NDRdfQ==
+eyJoaXN0b3J5IjpbMTQ1NTc1MDczNyw3OTUwNjk5MjcsMTcwMD
+kwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0
+MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMj
+k2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4
+NjI3ODY2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNT
+EzMDUsLTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1
+LC0xODY1MDMxNjQ0XX0=
 -->

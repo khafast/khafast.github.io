@@ -148,20 +148,22 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 > As I look in the Bean configuration (.xml file), each Bean (object) has an ID, you can initialize Bean's (object's) properties using `<property>` tag. 
 > The property name must be published and has `get` and `set` methods associated with it.
-> The question is, can we initialize a Bean (object) if `class` can be initialized by constructor which has arguments?
+> Can we initialize a Bean (object) if `class` constructor has many arguments?
 
-> So can we use a **custom defined class** in the constructor parameter or property.
->
+
+
+> So can we use a **custom defined class** in properties or the constructor parameters.
+
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MjcxMDAsLTUxMjk0NTY0MCwtMTkyMT
-g2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQy
-LC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC
-0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIw
-OTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MD
-MxNjQ0LC0xMTk2NzE0NzM2LC04NjA1NzAwODcsMTQ2OTcyNzkw
-OF19
+eyJoaXN0b3J5IjpbLTM0MzkyNTMyNiwtNTEyOTQ1NjQwLC0xOT
+IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
+NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
+YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt
+MjA5MzM5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4Nj
+UwMzE2NDQsLTExOTY3MTQ3MzYsLTg2MDU3MDA4NywxNDY5NzI3
+OTA4XX0=
 -->

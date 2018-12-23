@@ -240,18 +240,25 @@ public class Car {
 ``` java
 public class CarFactory {
     private String name;
-    CarFactory 
+    CarFactory(String name) {
+        this.name = name;
+    }
     public Car getCar() {
         return new Car();
     }
 }
 ```
 
+``` xml
+<bean id="carFactoryBeanId"> 
+
+```
+
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDQ3MjU2NSwxNzAwOTA1NTkyLDkxOT
+eyJoaXN0b3J5IjpbMTIwNTg5MDMwMCwxNzAwOTA1NTkyLDkxOT
 I3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQwLC0xOTIxODY5
 NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLT
 E5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4

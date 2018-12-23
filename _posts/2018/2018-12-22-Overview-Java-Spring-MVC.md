@@ -239,8 +239,11 @@ public class Car {
 ```
 ``` java
 public class CarFactory {
-    private name;
-    
+    private String name;
+    CarFactory 
+    public Car getCar() {
+        return new Car();
+    }
 }
 ```
 
@@ -248,11 +251,11 @@ public class CarFactory {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NTI0ODQsMTcwMDkwNTU5Miw5MTkyNz
-g2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYx
-MiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOT
-g2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIx
-MDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOT
-E4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0
-LC0xMTk2NzE0NzM2XX0=
+eyJoaXN0b3J5IjpbMjAxNDQ3MjU2NSwxNzAwOTA1NTkyLDkxOT
+I3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQwLC0xOTIxODY5
+NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLT
+E5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4
+MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5Mz
+M5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2
+NDQsLTExOTY3MTQ3MzZdfQ==
 -->

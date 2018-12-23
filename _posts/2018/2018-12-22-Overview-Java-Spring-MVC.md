@@ -289,6 +289,13 @@ Yes, they are. Following are examples:
      </property>
 </bean> 
 ```
+
+An separated example for Property
+``` java
+public class DataSource {
+    private Properties dbProperties;
+}
+```
 ``` xml
 
 ```
@@ -306,11 +313,11 @@ Yes, they are. Following are examples:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODQzNDUwMCw3OTUwNjk5MjcsMTcwMD
-kwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0
-MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMj
-k2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4
-NjI3ODY2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNT
-EzMDUsLTIwOTMzOTE4MjgsNTg4MTQyMDk0LC0xMDA3NDM2Mzk1
-LC0xODY1MDMxNjQ0XX0=
+eyJoaXN0b3J5IjpbLTEwMDEzMjk4NzYsMTQxODQzNDUwMCw3OT
+UwNjk5MjcsMTcwMDkwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQz
+MjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LD
+MzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYy
+MjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0yODI3Mz
+E5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MTQyMDk0
+LC0xMDA3NDM2Mzk1XX0=
 -->

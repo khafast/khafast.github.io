@@ -210,8 +210,13 @@ Yes, we can achieve it by using constructor argument reference and/or setter ref
 You can use `factory-method` attribute in Bean definition. For an example:
 ConnectionUtil.java
 ``` java
-public class ConnectionUtil {
-   private Connectivity
+public class ConnectionUtil{
+   private Connection instance;
+   private ConnectionUtil() {
+   }
+   public getInstance() {
+       return instance;   
+   }
 }
 ```
 
@@ -223,11 +228,11 @@ public class ConnectionUtil {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2Njk2NDgzLDkxOTI3ODY4OCwtMTM3Mj
-Q3NDMyOCwtNTEyOTQ1NjQwLC0xOTIxODY5NjEyLDE1NDI2NTAy
-MTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLTE5ODY1NTEyNzIsLT
-E1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4MjEwODAwMjYsLTI4
-MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5MzM5MTgyOCw1ODgxND
-IwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2NDQsLTExOTY3MTQ3
-MzYsLTg2MDU3MDA4N119
+eyJoaXN0b3J5IjpbMTIxMjAxNDcxNSw5MTkyNzg2ODgsLTEzNz
+I0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUw
+MjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC
+0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0y
+ODI3MzE5ODksLTEwNDMyNTEzMDUsLTIwOTMzOTE4MjgsNTg4MT
+QyMDk0LC0xMDA3NDM2Mzk1LC0xODY1MDMxNjQ0LC0xMTk2NzE0
+NzM2LC04NjA1NzAwODddfQ==
 -->

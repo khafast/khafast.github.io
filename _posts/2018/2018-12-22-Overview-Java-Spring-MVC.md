@@ -152,8 +152,9 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 Yes, we can achieve it by using constructor argument reference like bellow:
 ``` xml
-<bean id="beanID" class="Room">
-    <property />
+<bean id="roombeanID" class="Room">
+    <constructor-arg ref="studentBeanID"/>
+    <property name="maxAttendee" value="1"/>
 </bean>
 ```
 
@@ -164,7 +165,7 @@ Yes, we can achieve it by using constructor argument reference like bellow:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU0MjYxNDMsLTUxMjk0NTY0MCwtMT
+eyJoaXN0b3J5IjpbLTEzNDUyMzA3MDMsLTUxMjk0NTY0MCwtMT
 kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
 NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
 Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs

@@ -201,7 +201,7 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 </bean>
 
 <bean id="teacherBeanId" class="Teacher">
-    <property name="name" value="Raymond"/>
+    <constructor-arg value="Raymond"/>
 </bean>
 ```
 
@@ -209,7 +209,7 @@ Yes, we can achieve it by using constructor argument reference or setter referen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI4NzE5MDUsLTUxMjk0NTY0MCwtMT
+eyJoaXN0b3J5IjpbLTEzNzI0NzQzMjgsLTUxMjk0NTY0MCwtMT
 kyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMjk2Mzcz
 NDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4NjI3OD
 Y2LC0xODIxMDgwMDI2LC0yODI3MzE5ODksLTEwNDMyNTEzMDUs

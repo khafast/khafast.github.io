@@ -254,7 +254,7 @@ public class CarFactory {
     <constructor-arg value="CarFast"/>
 </bean>
 
-<bean id="carBeanId" class="Car" factory-bean=""
+<bean id="carBeanId" class="Car" factory-bean="carFactoryBeanId" factory-method="getCar" />
 
 ```
 
@@ -262,11 +262,11 @@ public class CarFactory {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTA3MTYwOCwxNzAwOTA1NTkyLDkxOT
-I3ODY4OCwtMTM3MjQ3NDMyOCwtNTEyOTQ1NjQwLC0xOTIxODY5
-NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0NDIsLT
-E5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4NjYsLTE4
-MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwtMjA5Mz
-M5MTgyOCw1ODgxNDIwOTQsLTEwMDc0MzYzOTUsLTE4NjUwMzE2
-NDQsLTExOTY3MTQ3MzZdfQ==
+eyJoaXN0b3J5IjpbNzk1MDY5OTI3LDE3MDA5MDU1OTIsOTE5Mj
+c4Njg4LC0xMzcyNDc0MzI4LC01MTI5NDU2NDAsLTE5MjE4Njk2
+MTIsMTU0MjY1MDIxNCwzMzMxNzA1ODIsLTI5NjM3MzQ0MiwtMT
+k4NjU1MTI3MiwtMTU2MjI3MDU4NCwtMTI4ODYyNzg2NiwtMTgy
+MTA4MDAyNiwtMjgyNzMxOTg5LC0xMDQzMjUxMzA1LC0yMDkzMz
+kxODI4LDU4ODE0MjA5NCwtMTAwNzQzNjM5NSwtMTg2NTAzMTY0
+NCwtMTE5NjcxNDczNl19
 -->

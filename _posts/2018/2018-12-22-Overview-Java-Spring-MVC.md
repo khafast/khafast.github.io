@@ -207,16 +207,16 @@ Yes, we can achieve it by using constructor argument reference and/or setter ref
 
 > What if a class is singleton, could not be instantiated (there is method to get a singleton instance)?
 
-You can use factory-method` tag
-```
-
+You can use `factory-method` attribute in Bean definition. For an example:
+``` xml
+<bean 
 ```
 
 ## # Common issues
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDgwMzUxMyw5MTkyNzg2ODgsLTEzNz
+eyJoaXN0b3J5IjpbMTAyOTI0NTc0Niw5MTkyNzg2ODgsLTEzNz
 I0NzQzMjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUw
 MjE0LDMzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC
 0xNTYyMjcwNTg0LC0xMjg4NjI3ODY2LC0xODIxMDgwMDI2LC0y

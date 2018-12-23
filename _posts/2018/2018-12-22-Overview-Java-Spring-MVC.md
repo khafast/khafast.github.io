@@ -294,6 +294,12 @@ An separated example for Property
 ``` java
 public class DataSource {
     private Properties dbProperties;
+    public Properties getDbProperties() {
+        return dbProperties;
+    }
+    public void setDbProperties(Properties properties) {
+        this.dbProperties = properties;
+    }
 }
 ```
 ``` xml
@@ -313,7 +319,7 @@ public class DataSource {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDEzMjk4NzYsMTQxODQzNDUwMCw3OT
+eyJoaXN0b3J5IjpbLTE5MjMzOTMwNzEsMTQxODQzNDUwMCw3OT
 UwNjk5MjcsMTcwMDkwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQz
 MjgsLTUxMjk0NTY0MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LD
 MzMzE3MDU4MiwtMjk2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYy

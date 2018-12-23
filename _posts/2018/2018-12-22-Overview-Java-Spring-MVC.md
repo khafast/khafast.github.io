@@ -265,7 +265,14 @@ public class CarFactory {
 Yes, they are. Following are examples:
 ``` xml
 <bean id="countryBeanId" class="Country">
-     <property name="stateList" clas>
+     <property name="stateNames" >
+        <list>
+            <value>State 1</value>
+            <value>State 2</value>
+            <value>State 3</value>
+            <value>State 4</value>
+        </list>
+     </property>
 </bean> 
 ```
 ``` xml
@@ -285,7 +292,7 @@ Yes, they are. Following are examples:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc1NjUzMCw3OTUwNjk5MjcsMTcwMD
+eyJoaXN0b3J5IjpbLTQ1MzkwMjA4Niw3OTUwNjk5MjcsMTcwMD
 kwNTU5Miw5MTkyNzg2ODgsLTEzNzI0NzQzMjgsLTUxMjk0NTY0
 MCwtMTkyMTg2OTYxMiwxNTQyNjUwMjE0LDMzMzE3MDU4MiwtMj
 k2MzczNDQyLC0xOTg2NTUxMjcyLC0xNTYyMjcwNTg0LC0xMjg4

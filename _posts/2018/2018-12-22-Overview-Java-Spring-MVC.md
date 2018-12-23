@@ -150,7 +150,7 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 > The property name must be published and has `get` and `set` methods associated with it.
 > Can we initialize a Bean (object) if `class` constructor has many arguments?
 
-
+Yes, we can achieve it by using constructor argument reference
 
 > So can we use a **custom defined class** in properties or the constructor parameters.
 
@@ -159,7 +159,7 @@ Yes, there is other kind of inheritances you can do a configuration parent Bean 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzkyNTMyNiwtNTEyOTQ1NjQwLC0xOT
+eyJoaXN0b3J5IjpbMTUxMjgwNDIzMCwtNTEyOTQ1NjQwLC0xOT
 IxODY5NjEyLDE1NDI2NTAyMTQsMzMzMTcwNTgyLC0yOTYzNzM0
 NDIsLTE5ODY1NTEyNzIsLTE1NjIyNzA1ODQsLTEyODg2Mjc4Nj
 YsLTE4MjEwODAwMjYsLTI4MjczMTk4OSwtMTA0MzI1MTMwNSwt

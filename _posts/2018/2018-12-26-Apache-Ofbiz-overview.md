@@ -26,7 +26,7 @@ References:
 ## Serving data via REST service
 ## Required works
 
- - [x] List item
+ - [ ] List item
  - [ ]  
  - [ ]  
  - [ ] 
@@ -36,7 +36,13 @@ References:
 References:
 
 ## Authentication restriction (Encoding data)
-## Documenting
+## Required works
+
+ - [ ] List item
+ - [ ]  
+ - [ ]  
+ - [ ] 
+
 
 # A milli project
 
@@ -44,13 +50,19 @@ References:
 
 ## Mobile support
 
-## Documenting
+## Required works
+
+ - [ ] List item
+ - [ ]  
+ - [ ]  
+ - [ ] 
+
 # A centi project 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNzkyNTIxLC0yMDc4NjIzNzE5LDE5OD
-g1OTY2NDUsMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMTg5Mjgx
-NTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI2MjA0NDUsLTIwNzg2MjM3MTksMT
+k4ODU5NjY0NSwxMzk3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODky
+ODE1NTQ3LDEyMzY4MTc2NTcsLTM4MTg2OTcyMV19
 -->

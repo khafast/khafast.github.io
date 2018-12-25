@@ -18,7 +18,9 @@ References:
 
 ##  Extracting data from Ofbiz database
 
-## 
+## Serving data via REST service
+
+## Authentication restriction (Encoding data)
 
 # Beautify/organizing accounting page (micro project)
 
@@ -30,7 +32,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5OTk3MDM0LC0yMDc4NjIzNzE5LDE5OD
+eyJoaXN0b3J5IjpbMzExNDAxNzk5LC0yMDc4NjIzNzE5LDE5OD
 g1OTY2NDUsMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMTg5Mjgx
 NTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
 -->

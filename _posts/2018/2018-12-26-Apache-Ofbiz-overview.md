@@ -13,7 +13,7 @@ https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+D
 
 # A nano project
 
-# RESTFull A micro project
+# Export service using REST (micro project)
 
 ## References:
 https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
@@ -23,6 +23,7 @@ https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMT
-g5MjgxNTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
+eyJoaXN0b3J5IjpbMTk4ODU5NjY0NSwxMzk3MTYyMDAzLC0xOT
+cyODQ4NTk5LC0xODkyODE1NTQ3LDEyMzY4MTc2NTcsLTM4MTg2
+OTcyMV19
 -->

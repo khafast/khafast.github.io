@@ -4,8 +4,7 @@ This is a personal customized version of Apache's tutorials:
 
 # Hello world (neutron project)
 
-## References:
-
+References:
  -  https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide#OFBizTutorial-ABeginnersDevelopmentGuide-CreateYourFirstApplication(HelloWorld...)
 
 ##  Creating a plugin
@@ -17,17 +16,17 @@ This is a personal customized version of Apache's tutorials:
 References:
  - https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
 
-#  (micro project)
+# Beautify/organizing accounting page (micro project)
 
 References:
- - 
+
 
 
 # A milli project
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODI5NDEwMywxOTg4NTk2NjQ1LDEzOT
+eyJoaXN0b3J5IjpbMTAyMTAyOTQ0OCwxOTg4NTk2NjQ1LDEzOT
 cxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4MTU1NDcsMTIzNjgx
 NzY1NywtMzgxODY5NzIxXX0=
 -->

@@ -9,7 +9,12 @@ References:
 
 ##  Creating a plugin
 
+## Required works
 
+ - [ ] List item
+ - [ ]  
+ - [ ]  
+ - [ ] 
 
 # Export service using REST (nano project)
 
@@ -19,6 +24,12 @@ References:
 ##  Extracting data from Ofbiz database
 
 ## Serving data via REST service
+## Required works
+
+ - [x] List item
+ - [ ]  
+ - [ ]  
+ - [ ] 
 
 # Beautify/organizing accounting page (micro project)
 
@@ -39,7 +50,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMyMzU0ODEsLTIwNzg2MjM3MTksMT
-k4ODU5NjY0NSwxMzk3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODky
-ODE1NTQ3LDEyMzY4MTc2NTcsLTM4MTg2OTcyMV19
+eyJoaXN0b3J5IjpbNTIyNzkyNTIxLC0yMDc4NjIzNzE5LDE5OD
+g1OTY2NDUsMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMTg5Mjgx
+NTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
 -->

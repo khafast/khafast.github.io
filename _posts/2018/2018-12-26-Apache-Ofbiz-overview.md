@@ -16,7 +16,7 @@ References:
 References:
  - https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
 
-##  Extracting data from Ofbiz
+##  Extracting data from Ofbiz database
 
 ## 
 
@@ -30,7 +30,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg2MjM3MTksMTk4ODU5NjY0NSwxMz
-k3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODkyODE1NTQ3LDEyMzY4
-MTc2NTcsLTM4MTg2OTcyMV19
+eyJoaXN0b3J5IjpbNjM5OTk3MDM0LC0yMDc4NjIzNzE5LDE5OD
+g1OTY2NDUsMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMTg5Mjgx
+NTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
 -->

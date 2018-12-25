@@ -1,13 +1,15 @@
 A kick-starter guide how 
 
-# A neutron project
+# Hello world (neutron project)
 
 ## Where is tutorial link?
 
 https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide
 
 
-##
+##  Creating a plugin
+
+
 
 # A nano project
 
@@ -17,6 +19,6 @@ https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+D
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI4NDg1OTksLTE4OTI4MTU1NDcsMT
-IzNjgxNzY1NywtMzgxODY5NzIxXX0=
+eyJoaXN0b3J5IjpbLTE4NjI3ODk3NCwtMTk3Mjg0ODU5OSwtMT
+g5MjgxNTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
 -->

@@ -7,7 +7,7 @@ This is a personal customized version of Apache's tutorials:
 References:
  -  https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide#OFBizTutorial-ABeginnersDevelopmentGuide-CreateYourFirstApplication(HelloWorld...)
 
-##  Creating a plugin
+## Creating a plugin
 
 ## Required works
 
@@ -62,7 +62,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQxODYwMiwtMjA3ODYyMzcxOSwxOT
+eyJoaXN0b3J5IjpbMTU4MjYyMTMwNiwtMjA3ODYyMzcxOSwxOT
 g4NTk2NjQ1LDEzOTcxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4
 MTU1NDcsMTIzNjgxNzY1NywtMzgxODY5NzIxXX0=
 -->

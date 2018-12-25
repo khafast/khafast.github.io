@@ -16,6 +16,10 @@ References:
 References:
  - https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
 
+##  Extracting data from Ofbiz
+
+## 
+
 # Beautify/organizing accounting page (micro project)
 
 References:
@@ -26,7 +30,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTAyOTQ0OCwxOTg4NTk2NjQ1LDEzOT
-cxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4MTU1NDcsMTIzNjgx
-NzY1NywtMzgxODY5NzIxXX0=
+eyJoaXN0b3J5IjpbLTIwNzg2MjM3MTksMTk4ODU5NjY0NSwxMz
+k3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODkyODE1NTQ3LDEyMzY4
+MTc2NTcsLTM4MTg2OTcyMV19
 -->

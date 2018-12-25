@@ -12,20 +12,22 @@ This is a personal customized version of Apache's tutorials:
 
 
 
-# A nano project
+# Export service using REST (nano project)
 
-# Export service using REST (micro project)
-
-## References:
-
+References:
  - https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
+
+#  (micro project)
+
+References:
+ - 
 
 
 # A milli project
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MjAyNTY0LDE5ODg1OTY2NDUsMTM5Nz
-E2MjAwMywtMTk3Mjg0ODU5OSwtMTg5MjgxNTU0NywxMjM2ODE3
-NjU3LC0zODE4Njk3MjFdfQ==
+eyJoaXN0b3J5IjpbMTcwODI5NDEwMywxOTg4NTk2NjQ1LDEzOT
+cxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4MTU1NDcsMTIzNjgx
+NzY1NywtMzgxODY5NzIxXX0=
 -->

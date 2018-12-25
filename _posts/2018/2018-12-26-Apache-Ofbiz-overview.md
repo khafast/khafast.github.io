@@ -2,7 +2,7 @@ A kick-starter guide.
 This is a personal customized version of Apache's tutorials:
 - https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide
 
-# Hello world (neutron project)
+# 1 Hello world (neutron project)
 
 References:
  -  https://cwiki.apache.org/confluence/display/OFBIZ/OFBiz+Tutorial+-+A+Beginners+Development+Guide#OFBizTutorial-ABeginnersDevelopmentGuide-CreateYourFirstApplication(HelloWorld...)
@@ -16,7 +16,7 @@ References:
  - [ ]  
  - [ ] 
 
-# Export service using REST (nano project)
+# 2 Export service using REST (nano project)
 
 References:
  - https://cwiki.apache.org/confluence/display/OFBIZ/Export+service+using+REST
@@ -31,7 +31,7 @@ References:
  - [ ]  
  - [ ] 
 
-# Beautify/organizing accounting page (micro project)
+# 3 Beautify/organizing accounting page (micro project)
 
 References:
 
@@ -44,7 +44,7 @@ References:
  - [ ] 
 
 
-# A milli project
+# 4 A milli project
 
 ## Opening an application on local network
 
@@ -57,12 +57,12 @@ References:
  - [ ]  
  - [ ] 
 
-# A centi project 
+# 5 A centi project 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI2MjA0NDUsLTIwNzg2MjM3MTksMT
-k4ODU5NjY0NSwxMzk3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODky
-ODE1NTQ3LDEyMzY4MTc2NTcsLTM4MTg2OTcyMV19
+eyJoaXN0b3J5IjpbLTEwMDQxODYwMiwtMjA3ODYyMzcxOSwxOT
+g4NTk2NjQ1LDEzOTcxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4
+MTU1NDcsMTIzNjgxNzY1NywtMzgxODY5NzIxXX0=
 -->

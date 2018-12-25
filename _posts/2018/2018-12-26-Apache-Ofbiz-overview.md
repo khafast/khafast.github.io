@@ -25,8 +25,7 @@ References:
 References:
 
 ## Authentication restriction (Encoding data)
-
-
+## Documenting
 
 # A milli project
 
@@ -34,9 +33,13 @@ References:
 
 ## Mobile support
 
+## Documenting
+# A centi project 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTM1MjgxMywtMjA3ODYyMzcxOSwxOT
-g4NTk2NjQ1LDEzOTcxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4
-MTU1NDcsMTIzNjgxNzY1NywtMzgxODY5NzIxXX0=
+eyJoaXN0b3J5IjpbLTIwMTMyMzU0ODEsLTIwNzg2MjM3MTksMT
+k4ODU5NjY0NSwxMzk3MTYyMDAzLC0xOTcyODQ4NTk5LC0xODky
+ODE1NTQ3LDEyMzY4MTc2NTcsLTM4MTg2OTcyMV19
 -->

@@ -20,19 +20,23 @@ References:
 
 ## Serving data via REST service
 
-## Authentication restriction (Encoding data)
-
 # Beautify/organizing accounting page (micro project)
 
 References:
+
+## Authentication restriction (Encoding data)
 
 
 
 # A milli project
 
+## Opening an application on local network
+
+## Mobile support
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDAxNzk5LC0yMDc4NjIzNzE5LDE5OD
-g1OTY2NDUsMTM5NzE2MjAwMywtMTk3Mjg0ODU5OSwtMTg5Mjgx
-NTU0NywxMjM2ODE3NjU3LC0zODE4Njk3MjFdfQ==
+eyJoaXN0b3J5IjpbMTI0NTM1MjgxMywtMjA3ODYyMzcxOSwxOT
+g4NTk2NjQ1LDEzOTcxNjIwMDMsLTE5NzI4NDg1OTksLTE4OTI4
+MTU1NDcsMTIzNjgxNzY1NywtMzgxODY5NzIxXX0=
 -->

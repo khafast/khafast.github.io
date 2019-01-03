@@ -13,9 +13,13 @@ A: Trong file controller.xml
 
 > Q: Đọc file controller.xml như thế nào?
 
-- view-map
-- request-map
-- 
+<!-- Request Mappings -->
+<!-- end of request mappings -->
+<!-- View Mappings -->
+<!-- Lookup mappings -->
+<!-- Assignment Mappings -->
+<!-- end of view mappings -->
+ 
 > Q: Có bao nhiêu loại content-type
 
 - screen: xem online trên web (tobe confirmed)
@@ -83,5 +87,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzOTA5MjI5LC0yMDA1NDAzNDQwXX0=
+eyJoaXN0b3J5IjpbODA5NDYwMTkzLC0yMDA1NDAzNDQwXX0=
 -->

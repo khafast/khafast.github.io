@@ -13,6 +13,9 @@ A: Trong file controller.xml
 
 > Q: Đọc file controller.xml như thế nào?
 
+- view-map
+- request-map
+- 
 > Q: Có bao nhiêu loại content-type
 
 - screen: xem online trên web (tobe confirmed)
@@ -80,5 +83,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU0MDM0NDBdfQ==
+eyJoaXN0b3J5IjpbNDUzOTA5MjI5LC0yMDA1NDAzNDQwXX0=
 -->

@@ -18,6 +18,7 @@ A: Trong file controller.xml
 - screen: xem online trên web (tobe confirmed)
 - screenfop: báo cáo dạng giấy A4 (template được định nghĩa chỗ khác)
 - screencsv: báo cáo dạng bảng
+- screenxml: báo cáo dạng xml
 
 # 1 Hello world (neutron project)
 
@@ -79,5 +80,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5Mzc5MzQ0XX0=
+eyJoaXN0b3J5IjpbLTIwMDU0MDM0NDBdfQ==
 -->

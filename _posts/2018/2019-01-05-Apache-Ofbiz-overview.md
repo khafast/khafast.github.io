@@ -6,8 +6,14 @@ This is a personal customized version of Apache's tutorials:
 
 ## Viết RESTFull service
 
-> Trong một ứng dụng trên Ofbiz thì các controller được định nghĩa ở đâu?
+> Q: Trong một ứng dụng trên Ofbiz thì các controller được định nghĩa ở đâu?
 
+A: Trong file controller.xml 
+.\apache-ofbiz-16.11.05\applications\accounting\webapp\accounting\WEB-INF\controller.xml
+
+> Q: Đọc file controller.xml như thế nào?
+
+> Q: Có bao nhiêu loại content-type
 
 
 
@@ -71,5 +77,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjcxMjA4N119
+eyJoaXN0b3J5IjpbLTk3MTU3NTkwOF19
 -->

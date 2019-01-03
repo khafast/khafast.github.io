@@ -4,6 +4,10 @@ This is a personal customized version of Apache's tutorials:
 
 # Tìm gì? ở đâu?
 
+## Viết RESTFull service
+
+> Trong một ứng dụng trên Ofbiz thì các controller được định nghĩa ở đâu?
+
 
 
 
@@ -67,5 +71,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTM4ODA2XX0=
+eyJoaXN0b3J5IjpbMTI4NjcxMjA4N119
 -->

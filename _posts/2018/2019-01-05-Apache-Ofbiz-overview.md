@@ -16,8 +16,8 @@ A: Trong file controller.xml
 > Q: Có bao nhiêu loại content-type
 
 - screen: xem online trên web (tobe confirmed)
-- screenfop: dạng báo cáo giấy A4
-- screencsv: dạng bá
+- screenfop: báo cáo dạng giấy A4 (template được định nghĩa chỗ khác)
+- screencsv: báo cáo dạng bảng
 
 # 1 Hello world (neutron project)
 
@@ -79,5 +79,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI2MDI4NzZdfQ==
+eyJoaXN0b3J5IjpbMzI5Mzc5MzQ0XX0=
 -->

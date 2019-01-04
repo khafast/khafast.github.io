@@ -34,8 +34,8 @@ References:
 
 ## Creating a plugin
 
-Lúc tạo mới plugin sẽ gặp lỗi kiểu 
 ```
+Lúc tạo mới plugin sẽ gặp lỗi kiểu:
 Could not find resource bundle [PracticeUiLabels] in the locale [en_US]  
 Exception: java.lang.IllegalArgumentException  
 Message: Could not find resource bundle [PracticeUiLabels] in the locale  
@@ -60,6 +60,9 @@ chèn định nghĩa locale `en_US` vào như hình:
     </property>
 </resource>
 ```
+Các files có liên quan trong vụ này gồm có:
+- 
+
 
 
 ## Required works
@@ -115,6 +118,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY5NDc3OCw4MDk0NjAxOTMsLTIwMD
-U0MDM0NDBdfQ==
+eyJoaXN0b3J5IjpbNDYzMTgzMzg4LDgwOTQ2MDE5MywtMjAwNT
+QwMzQ0MF19
 -->

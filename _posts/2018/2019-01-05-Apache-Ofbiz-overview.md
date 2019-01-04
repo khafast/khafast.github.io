@@ -62,7 +62,8 @@ chèn định nghĩa locale `en_US` vào như hình:
 ```
 Các files có liên quan trong vụ này gồm có:
 - `.\specialpurpose\ofbizDemo\config\OfbizDemoUiLabels.xml`: File này định nghĩa UI label cho nhiều ngôn ngữ khác nhau (e.g. tiếng Anh, tiếng Nhật)
-- `.\specialpurpose\ofbizDemo\ofbiz-component.xml`: File này định nghĩa cho plugin, trong trường hợp này dùng để đăng ký thư mục `.\config` là một classpath ( `<classpath type="dir" location="config"/>`)
+- `.\specialpurpose\ofbizDemo\ofbiz-component.xml`: File này định nghĩa cho plugin, trong trường hợp này, dùng để đăng ký thư mục `.\config` là một classpath ( `<classpath type="dir" location="config"/>`)
+- 
 
 
 ## Required works
@@ -118,6 +119,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA5MjQ5MCw4MDk0NjAxOTMsLTIwMD
+eyJoaXN0b3J5IjpbLTQ3NzEwMDMzOSw4MDk0NjAxOTMsLTIwMD
 U0MDM0NDBdfQ==
 -->

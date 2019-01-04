@@ -45,7 +45,20 @@ Nguyên nhân là do Ofbiz hỗ trợ hiển thị nhiều ngôn ngữ trên gia
 Giải pháp là sửa file: .\apache-ofbiz-16.11.05\specialpurpose\ofbizDemo\config\OfbizDemoUiLabels.xml
 chèn định nghĩa locale `en_US` vào như hình:
 ```xml
-
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+    <property key="OfbizDemoApplication">
+        <value xml:lang="en">OfbizDemo Application</value>
+        <value xml:lang="en_US">OfbizDemo Application</value>
+        <value xml:lang="zh">OfbizDemo应用程庿</value>
+        <value xml:lang="zh-TW">OfbizDemo應用程弿</value>
+    </property>
+    <property key="OfbizDemoCompanyName">
+        <value xml:lang="en">OFBiz: OfbizDemo</value>
+        <value xml:lang="en_US">OFBiz: OfbizDemo</value>
+        <value xml:lang="zh-TW">OFBiz: OfbizDemo</value>
+    </property>
+</resource>
 ```
 
 
@@ -102,6 +115,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0NDEwMTI1LDgwOTQ2MDE5MywtMjAwNT
-QwMzQ0MF19
+eyJoaXN0b3J5IjpbLTE2MzY5NDc3OCw4MDk0NjAxOTMsLTIwMD
+U0MDM0NDBdfQ==
 -->

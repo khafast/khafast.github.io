@@ -41,6 +41,8 @@ Exception: java.lang.IllegalArgumentException
 Message: Could not find resource bundle [PracticeUiLabels] in the locale  
 [en_US]
 ```
+Nguyên nhân là do Ofbiz hỗ trợ hiển thị nhiều ngôn ngữ trên giao diện (gọi là UI Labels) nhưng trong trường hợp này không có dòng nào định nghĩa locale là `en_US` nên trang không hiển thị được.
+
 
 ## Required works
 
@@ -95,6 +97,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MDMyMzUwLDgwOTQ2MDE5MywtMjAwNT
-QwMzQ0MF19
+eyJoaXN0b3J5IjpbLTEyMjc3NDEzNTIsODA5NDYwMTkzLC0yMD
+A1NDAzNDQwXX0=
 -->

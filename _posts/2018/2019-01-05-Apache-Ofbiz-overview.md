@@ -61,7 +61,7 @@ chèn định nghĩa locale `en_US` vào như hình:
 </resource>
 ```
 Các files có liên quan trong vụ này gồm có:
-- 
+- .\specialpurpose\ofbizDemo\config\OfbizDemoUiLabels.xml: File này định nghĩa UI label cho nhiều ngôn ngữ khác nhau (e.g. tiếng Anh, tiếng Nh)
 
 
 
@@ -118,6 +118,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMTgzMzg4LDgwOTQ2MDE5MywtMjAwNT
-QwMzQ0MF19
+eyJoaXN0b3J5IjpbMTM0ODc5MTk0Niw4MDk0NjAxOTMsLTIwMD
+U0MDM0NDBdfQ==
 -->

@@ -43,7 +43,10 @@ Message: Could not find resource bundle [PracticeUiLabels] in the locale
 ```
 Nguyên nhân là do Ofbiz hỗ trợ hiển thị nhiều ngôn ngữ trên giao diện (gọi là UI Labels) nhưng trong trường hợp này không có dòng nào định nghĩa locale là `en_US` nên trang không hiển thị được.
 Giải pháp là sửa file: .\apache-ofbiz-16.11.05\specialpurpose\ofbizDemo\config\OfbizDemoUiLabels.xml
-chèn định nghĩa locale `en`
+chèn định nghĩa locale `en_US` vào như hình:
+```xml
+
+```
 
 
 ## Required works
@@ -99,6 +102,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MzMzMTA4LDgwOTQ2MDE5MywtMjAwNT
+eyJoaXN0b3J5IjpbNDM0NDEwMTI1LDgwOTQ2MDE5MywtMjAwNT
 QwMzQ0MF19
 -->

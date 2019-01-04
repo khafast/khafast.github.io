@@ -63,7 +63,13 @@ chèn định nghĩa locale `en_US` vào như hình:
 Các files có liên quan trong vụ này gồm có:
 - `.\specialpurpose\ofbizDemo\config\OfbizDemoUiLabels.xml`: File này định nghĩa UI label cho nhiều ngôn ngữ khác nhau (e.g. tiếng Anh, tiếng Nhật)
 - `.\specialpurpose\ofbizDemo\ofbiz-component.xml`: File này định nghĩa cho plugin, trong trường hợp này, dùng để đăng ký thư mục `.\config` là một classpath ( `<classpath type="dir" location="config"/>`)
-- 
+
+```xml
+<property-map resource="OfbizDemoUiLabels" map-name="uiLabelMap" global="true"/>
+...
+               <set field="layoutSettings.companyName" from-field="uiLabelMap.OfbizDemoCompanyName" global="true"/>
+               <set field="layoutSettings.companySubtitle" from-field="uiLabelMap.OfbizDemoCompanySubtitle" global="true"/>
+```
 
 
 ## Required works
@@ -119,6 +125,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzEwMDMzOSw4MDk0NjAxOTMsLTIwMD
-U0MDM0NDBdfQ==
+eyJoaXN0b3J5IjpbMTM3MDczNzExMCwtNDc3MTAwMzM5LDgwOT
+Q2MDE5MywtMjAwNTQwMzQ0MF19
 -->

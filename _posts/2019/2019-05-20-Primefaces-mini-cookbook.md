@@ -4,7 +4,7 @@
 
 -    [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  AjaxCore](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
 
-##  [ Input](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+ [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/input.svg.xhtml?ln=showcase)  Input](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
  
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
@@ -48,8 +48,7 @@
    
 
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)  Button](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
-
+ ## ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)  
 -   [Button](https://www.primefaces.org/showcase/ui/button/button.xhtml)
 -   [CommandButton](https://www.primefaces.org/showcase/ui/button/commandButton.xhtml)
 -   [CommandLink](https://www.primefaces.org/showcase/ui/button/commandLink.xhtml)
@@ -58,6 +57,6 @@
 -   [LinkButton](https://www.primefaces.org/showcase/ui/button/linkButton.xhtml)
 -   [SplitButton](https://www.primefaces.org/showcase/ui/button/splitButton.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc0ODE3MCwtMTI4NjEyNzkyNCwxMj
-MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
+eyJoaXN0b3J5IjpbLTE1MzEyNzgyNzgsLTEyODYxMjc5MjQsMT
+IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
 -->

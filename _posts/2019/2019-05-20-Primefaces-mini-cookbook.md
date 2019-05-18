@@ -38,13 +38,19 @@
 -   [SelectOneRadio](https://www.primefaces.org/showcase/ui/input/oneRadio.xhtml)
 -   [SelectCheckboxMenu](https://www.primefaces.org/showcase/ui/input/checkboxMenu.xhtml)
 -   [SelectOneMenu](https://www.primefaces.org/showcase/ui/input/oneMenu.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-one-menu.png)
 -   [TriStateCheckbox](https://www.primefaces.org/showcase/ui/input/triStateCheckbox.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/tri-state-checkbox.png)
 -   [InputGroup](https://www.primefaces.org/showcase/ui/input/inputGroup.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-group.png)
 -   [InputNumber](https://www.primefaces.org/showcase/ui/input/inputNumber.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-number.png)
 -   [InputMask](https://www.primefaces.org/showcase/ui/input/inputMask.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-mask.png)
 -   [SelectOneListbox](https://www.primefaces.org/showcase/ui/input/listbox.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-one-listbox.png)
 -   [SelectManyButton](https://www.primefaces.org/showcase/ui/input/manyButton.xhtml)
-
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-many-button.png)
 -   [SelectManyMenu](https://www.primefaces.org/showcase/ui/input/manyMenu.xhtml)
 ![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-many-menu.png)
 -   [SelectManyCheckbox](https://www.primefaces.org/showcase/ui/input/manyCheckbox.xhtml)
@@ -322,7 +328,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODYxNDk0MCwxMjgyNDEyNTc2LC03Nj
-AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
-OTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbLTEwNzgwODc5OTYsMTI4MjQxMjU3NiwtNz
+YwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2
+Mjk0NSwxNjY2MDk1NjddfQ==
 -->

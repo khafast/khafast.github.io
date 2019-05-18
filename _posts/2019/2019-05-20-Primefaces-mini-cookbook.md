@@ -29,6 +29,7 @@
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
 -   [SelectBooleanButton](https://www.primefaces.org/showcase/ui/input/booleanButton.xhtml)
+
 -   [SelectBooleanCheckbox](https://www.primefaces.org/showcase/ui/input/booleanCheckbox.xhtml)
 -   [SelectOneButton](https://www.primefaces.org/showcase/ui/input/oneButton.xhtml)
 -   [SelectOneRadio](https://www.primefaces.org/showcase/ui/input/oneRadio.xhtml)
@@ -297,6 +298,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDM0NDgxOCwtMTI4NjEyNzkyNCwxMj
-MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
+eyJoaXN0b3J5IjpbMTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMj
+g2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1
+NjddfQ==
 -->

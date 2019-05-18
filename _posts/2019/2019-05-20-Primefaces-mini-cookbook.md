@@ -44,13 +44,17 @@
 -   [InputMask](https://www.primefaces.org/showcase/ui/input/inputMask.xhtml)
 -   [SelectOneListbox](https://www.primefaces.org/showcase/ui/input/listbox.xhtml)
 -   [SelectManyButton](https://www.primefaces.org/showcase/ui/input/manyButton.xhtml)
--   [SelectManyMenu](https://www.primefaces.org/showcase/ui/input/manyMenu.xhtml)
--   [SelectManyCheckbox](https://www.primefaces.org/showcase/ui/input/manyCheckbox.xhtml)
--   [MultiSelectListBox](https://www.primefaces.org/showcase/ui/input/multiSelectListbox.xhtml)
--   [ToggleSwitch](https://www.primefaces.org/showcase/ui/input/toggleSwitch.xhtml)
 
+-   [SelectManyMenu](https://www.primefaces.org/showcase/ui/input/manyMenu.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-many-menu.png)
+-   [SelectManyCheckbox](https://www.primefaces.org/showcase/ui/input/manyCheckbox.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-many-checkbox.png)
+-   [MultiSelectListBox](https://www.primefaces.org/showcase/ui/input/multiSelectListbox.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/multi-select-listbox.png)
+-   [ToggleSwitch](https://www.primefaces.org/showcase/ui/input/toggleSwitch.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/toggle-switch.png)
 -   [DatePicker](https://www.primefaces.org/showcase/ui/input/datePicker.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/date-picker.png)
 -   [Calendar](https://www.primefaces.org/showcase/ui/input/calendar.xhtml)
 ![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
 
@@ -318,7 +322,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjE0Nzk4NiwxMjgyNDEyNTc2LC03Nj
+eyJoaXN0b3J5IjpbMTY3ODYxNDk0MCwxMjgyNDEyNTc2LC03Nj
 AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
 OTQ1LDE2NjYwOTU2N119
 -->

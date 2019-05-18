@@ -2,10 +2,28 @@
 
 ![enter image description here](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/dummy-image-300x298.jpg)
 
--    [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  AjaxCore](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  
+## [AjaxCore](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/input.svg.xhtml?ln=showcase)  Input](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
- 
+-   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
+-   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
+-   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
+-   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
+-   [Validation](https://www.primefaces.org/showcase/ui/ajax/validation.xhtml)
+-   [RemoteCommand](https://www.primefaces.org/showcase/ui/ajax/remoteCommand.xhtml)
+-   [Dropdown](https://www.primefaces.org/showcase/ui/ajax/dropdown.xhtml)
+
+-   [Basic](https://www.primefaces.org/showcase/ui/ajax/basic.xhtml)
+-   [Event](https://www.primefaces.org/showcase/ui/ajax/event.xhtml)
+-   [Selector](https://www.primefaces.org/showcase/ui/ajax/selector.xhtml)
+-   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
+-   [Poll](https://www.primefaces.org/showcase/ui/ajax/poll.xhtml)
+-   [Fragment](https://www.primefaces.org/showcase/ui/ajax/fragment.xhtml)
+-   [Status](https://www.primefaces.org/showcase/ui/ajax/status.xhtml)
+
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/input.svg.xhtml?ln=showcase)  
+  
+  ## [Input](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
 -   [SelectBooleanButton](https://www.primefaces.org/showcase/ui/input/booleanButton.xhtml)
@@ -57,6 +75,6 @@
 -   [LinkButton](https://www.primefaces.org/showcase/ui/button/linkButton.xhtml)
 -   [SplitButton](https://www.primefaces.org/showcase/ui/button/splitButton.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzEyNzgyNzgsLTEyODYxMjc5MjQsMT
-IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbLTMzNzY5ODg4MSwtMTI4NjEyNzkyNCwxMj
+MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

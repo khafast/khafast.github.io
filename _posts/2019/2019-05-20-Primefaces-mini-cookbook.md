@@ -27,16 +27,21 @@
 ## Input
   
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
-
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/auto-complete.png)
 
 
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/inputtext-area.png)
 -   [SelectBooleanButton](https://www.primefaces.org/showcase/ui/input/booleanButton.xhtml)
-
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-boolean-button.png)
 -   [SelectBooleanCheckbox](https://www.primefaces.org/showcase/ui/input/booleanCheckbox.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-boolean-checkbox.png)
 -   [SelectOneButton](https://www.primefaces.org/showcase/ui/input/oneButton.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-one-button.png)
 -   [SelectOneRadio](https://www.primefaces.org/showcase/ui/input/oneRadio.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-one-radio.png)
 -   [SelectCheckboxMenu](https://www.primefaces.org/showcase/ui/input/checkboxMenu.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-checkbox-menu.png)
 -   [SelectOneMenu](https://www.primefaces.org/showcase/ui/input/oneMenu.xhtml)
 ![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/select-one-menu.png)
 -   [TriStateCheckbox](https://www.primefaces.org/showcase/ui/input/triStateCheckbox.xhtml)
@@ -328,7 +333,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgwODc5OTYsMTI4MjQxMjU3NiwtNz
-YwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2
-Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTUyMDUyMzA2NSwxMjgyNDEyNTc2LC03Nj
+AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
+OTQ1LDE2NjYwOTU2N119
 -->

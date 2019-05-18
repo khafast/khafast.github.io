@@ -234,7 +234,44 @@
 
 -   [Message](https://www.primefaces.org/showcase/ui/df/message.xhtml)
 -   [Nested](https://www.primefaces.org/showcase/ui/df/nested.xhtml)
+
+ [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/misc.svg.xhtml?ln=showcase)  Misc](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+
+-   [Responsive](https://www.primefaces.org/showcase/ui/misc/responsive.xhtml)
+-   [AutoUpdate](https://www.primefaces.org/showcase/ui/misc/autoUpdate.xhtml)
+-   [ThemeSwitcher](https://www.primefaces.org/showcase/ui/misc/themeSwitcher.xhtml)
+-   [OutputLabel](https://www.primefaces.org/showcase/ui/misc/outputLabel.xhtml)
+-   [BlockUI](https://www.primefaces.org/showcase/ui/misc/blockUI.xhtml)
+-   [Cache](https://www.primefaces.org/showcase/ui/misc/cache.xhtml)
+-   [Captcha](https://www.primefaces.org/showcase/ui/misc/captcha.xhtml)
+-   [Clock](https://www.primefaces.org/showcase/ui/misc/clock.xhtml)
+-   [Collector](https://www.primefaces.org/showcase/ui/misc/collector.xhtml)
+-   [DefaultCommand](https://www.primefaces.org/showcase/ui/misc/defaultCommand.xhtml)
+-   [Effect](https://www.primefaces.org/showcase/ui/misc/effect.xhtml)
+-   [ExceptionHandler](https://www.primefaces.org/showcase/ui/misc/exceptionHandler.xhtml)
+-   [FeedReader](https://www.primefaces.org/showcase/ui/misc/feedReader.xhtml)
+-   [IdleMonitor](https://www.primefaces.org/showcase/ui/misc/idleMonitor.xhtml)
+-   [ImportConstants](https://www.primefaces.org/showcase/ui/misc/importConstants.xhtml)
+-   [ImportEnum](https://www.primefaces.org/showcase/ui/misc/importEnum.xhtml)
+
+-   [PrimeIcons](https://www.primefaces.org/showcase/ui/misc/primeicons.xhtml)
+-   [FontAwesome](https://www.primefaces.org/showcase/ui/misc/fa.xhtml)
+-   [Lifecycle](https://www.primefaces.org/showcase/ui/misc/lifecycle.xhtml)
+-   [Log](https://www.primefaces.org/showcase/ui/misc/log.xhtml)
+-   [Focus](https://www.primefaces.org/showcase/ui/misc/focus.xhtml)
+-   [Hotkey](https://www.primefaces.org/showcase/ui/misc/hotkey.xhtml)
+-   [Printer](https://www.primefaces.org/showcase/ui/misc/printer.xhtml)
+-   [ProgressBar](https://www.primefaces.org/showcase/ui/misc/progressBar.xhtml)
+-   [Context](https://www.primefaces.org/showcase/ui/misc/requestContext.xhtml)
+-   [ResetInput](https://www.primefaces.org/showcase/ui/misc/resetInput.xhtml)
+-   [Resizable](https://www.primefaces.org/showcase/ui/misc/resizable.xhtml)
+-   [Separator](https://www.primefaces.org/showcase/ui/misc/separator.xhtml)
+-   [Spacer](https://www.primefaces.org/showcase/ui/misc/spacer.xhtml)
+-   [Spotlight](https://www.primefaces.org/showcase/ui/misc/spotlight.xhtml)
+-   [Sticky](https://www.primefaces.org/showcase/ui/misc/sticky.xhtml)
+-   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
+-   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MjEyNDE1LC0xMjg2MTI3OTI0LDEyMz
-I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbMTgzNTQwMDkzOSwtMTI4NjEyNzkyNCwxMj
+MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

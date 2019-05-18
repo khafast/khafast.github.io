@@ -54,13 +54,22 @@
 ![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
 
 -   [Editor](https://www.primefaces.org/showcase/ui/input/editor.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/editor.png)
+
 -   [Signature](https://www.primefaces.org/showcase/ui/input/signature.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/signature.png)
 -   [Spinner](https://www.primefaces.org/showcase/ui/input/spinner.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/spinner.png)
 -   [Slider](https://www.primefaces.org/showcase/ui/input/slider.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/slider.png)
 -   [InputText](https://www.primefaces.org/showcase/ui/input/inputText.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-text.png)
 -   [InputSwitch](https://www.primefaces.org/showcase/ui/input/inputSwitch.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-switch.png)
 -   [Password](https://www.primefaces.org/showcase/ui/input/password.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/password.png)
 -   [Keyboard](https://www.primefaces.org/showcase/ui/input/keyboard.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
 -   [Rating](https://www.primefaces.org/showcase/ui/input/rating.xhtml)
 -   [ColorPicker](https://www.primefaces.org/showcase/ui/input/colorPicker.xhtml)
 -   [Inplace](https://www.primefaces.org/showcase/ui/input/inplace.xhtml)
@@ -303,7 +312,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTUwNTc3NywxMjgyNDEyNTc2LC03Nj
+eyJoaXN0b3J5IjpbLTYxOTUwMTM1MCwxMjgyNDEyNTc2LC03Nj
 AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
 OTQ1LDE2NjYwOTU2N119
 -->

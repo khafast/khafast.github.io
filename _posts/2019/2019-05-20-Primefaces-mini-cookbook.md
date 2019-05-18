@@ -44,7 +44,19 @@
 -   [Chips](https://www.primefaces.org/showcase/ui/input/chips.xhtml)
 
 
+
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)  
+
+## [Button](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+
+-   [Button](https://www.primefaces.org/showcase/ui/button/button.xhtml)
+-   [CommandButton](https://www.primefaces.org/showcase/ui/button/commandButton.xhtml)
+-   [CommandLink](https://www.primefaces.org/showcase/ui/button/commandLink.xhtml)
+
+-   [Link](https://www.primefaces.org/showcase/ui/button/link.xhtml)
+-   [LinkButton](https://www.primefaces.org/showcase/ui/button/linkButton.xhtml)
+-   [SplitButton](https://www.primefaces.org/showcase/ui/button/splitButton.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ1Nzg0OTQsLTEyODYxMjc5MjQsMT
-IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbLTE0NDMzNjM0NiwtMTI4NjEyNzkyNCwxMj
+MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

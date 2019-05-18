@@ -151,7 +151,10 @@
 -   [TabMenu](https://www.primefaces.org/showcase/ui/menu/tabMenu.xhtml)
 -   [TieredMenu](https://www.primefaces.org/showcase/ui/menu/tieredMenu.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  Charts](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+ [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  
+
+#Charts
+ 
 
 -   [Area](https://www.primefaces.org/showcase/ui/chart/area.xhtml)
 -   [Bar](https://www.primefaces.org/showcase/ui/chart/bar.xhtml)
@@ -173,7 +176,8 @@
 -   [Date](https://www.primefaces.org/showcase/ui/chart/date.xhtml)
 -   [Responsive](https://www.primefaces.org/showcase/ui/chart/responsive.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  ChartJs](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  
+ ## ChartJs
 
 -   [Bar](https://www.primefaces.org/showcase/ui/chartjs/bar/bar.xhtml)
 -   [Bubble](https://www.primefaces.org/showcase/ui/chartjs/bubble.xhtml)
@@ -187,15 +191,18 @@
 -   [Interactive](https://www.primefaces.org/showcase/ui/chartjs/interactive.xhtml)
 -   [Export](https://www.primefaces.org/showcase/ui/chartjs/export.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/message.svg.xhtml?ln=showcase)  Messages](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
-
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/message.svg.xhtml?ln=showcase)  
+ ## Messages
+ 
 -   [Growl](https://www.primefaces.org/showcase/ui/message/growl.xhtml)
 
 -   [Messages](https://www.primefaces.org/showcase/ui/message/messages.xhtml)
 
 -   [StaticMessage](https://www.primefaces.org/showcase/ui/message/staticMessage.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/multimedia.svg.xhtml?ln=showcase)  Multimedia](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/multimedia.svg.xhtml?ln=showcase)  
+
+## Multimedia
 
 -   [Compare](https://www.primefaces.org/showcase/ui/multimedia/compare.xhtml)
 -   [GraphicImage](https://www.primefaces.org/showcase/ui/multimedia/graphicImage.xhtml)
@@ -208,13 +215,17 @@
 -   [PhotoCam](https://www.primefaces.org/showcase/ui/multimedia/photoCam.xhtml)
 -   [Switch](https://www.primefaces.org/showcase/ui/multimedia/switch.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/file.svg.xhtml?ln=showcase)  File](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/file.svg.xhtml?ln=showcase)  
+
+## File
 
 -   [Upload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml)
 
 -   [Download](https://www.primefaces.org/showcase/ui/file/download.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/dragdrop.svg.xhtml?ln=showcase)  DragDrop](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/dragdrop.svg.xhtml?ln=showcase)  
+## DragDrop
+ 
 
 -   [Draggable](https://www.primefaces.org/showcase/ui/dnd/draggable.xhtml)
 -   [DataGrid](https://www.primefaces.org/showcase/ui/dnd/dataGrid.xhtml)
@@ -227,7 +238,11 @@
 
 -   [Custom](https://www.primefaces.org/showcase/ui/csv/custom.xhtml)
 -   [Event](https://www.primefaces.org/showcase/ui/csv/event.xhtml)
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/dialogFramework.svg.xhtml?ln=showcase)  Dialog Framework](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/dialogFramework.svg.xhtml?ln=showcase)  
+
+## Dialog Framework
+
 
 -   [Basic](https://www.primefaces.org/showcase/ui/df/basic.xhtml)
 -   [Data](https://www.primefaces.org/showcase/ui/df/data.xhtml)
@@ -235,7 +250,8 @@
 -   [Message](https://www.primefaces.org/showcase/ui/df/message.xhtml)
 -   [Nested](https://www.primefaces.org/showcase/ui/df/nested.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/misc.svg.xhtml?ln=showcase)  Misc](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/misc.svg.xhtml?ln=showcase)  
+ ## Misc
 
 -   [Responsive](https://www.primefaces.org/showcase/ui/misc/responsive.xhtml)
 -   [AutoUpdate](https://www.primefaces.org/showcase/ui/misc/autoUpdate.xhtml)
@@ -272,6 +288,6 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTQwMDkzOSwtMTI4NjEyNzkyNCwxMj
-MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
+eyJoaXN0b3J5IjpbLTE5NzQ1NDEzNjcsLTEyODYxMjc5MjQsMT
+IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
 -->

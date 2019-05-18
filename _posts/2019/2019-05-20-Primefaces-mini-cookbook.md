@@ -50,40 +50,41 @@
 -   [ToggleSwitch](https://www.primefaces.org/showcase/ui/input/toggleSwitch.xhtml)
 
 -   [DatePicker](https://www.primefaces.org/showcase/ui/input/datePicker.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
 -   [Calendar](https://www.primefaces.org/showcase/ui/input/calendar.xhtml)
 ![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
 
 -   [Editor](https://www.primefaces.org/showcase/ui/input/editor.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/editor.png)
+![Editor](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/editor.png)
 
 -   [Signature](https://www.primefaces.org/showcase/ui/input/signature.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/signature.png)
+![Signature](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/signature.png)
 -   [Spinner](https://www.primefaces.org/showcase/ui/input/spinner.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/spinner.png)
+![Spinner](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/spinner.png)
 -   [Slider](https://www.primefaces.org/showcase/ui/input/slider.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/slider.png)
+![Slider](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/slider.png)
 -   [InputText](https://www.primefaces.org/showcase/ui/input/inputText.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-text.png)
+![InputText](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-text.png)
 -   [InputSwitch](https://www.primefaces.org/showcase/ui/input/inputSwitch.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-switch.png)
+![InputSwitch](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/input-switch.png)
 -   [Password](https://www.primefaces.org/showcase/ui/input/password.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/password.png)
+![Password](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/password.png)
 -   [Keyboard](https://www.primefaces.org/showcase/ui/input/keyboard.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/keyboard.png)
+![Keyboard](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/keyboard.png)
 -   [Rating](https://www.primefaces.org/showcase/ui/input/rating.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/rating.png)
+![Rating](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/rating.png)
 -   [ColorPicker](https://www.primefaces.org/showcase/ui/input/colorPicker.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/color-picker.png)
+![ColorPicker](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/color-picker.png)
 -   [Inplace](https://www.primefaces.org/showcase/ui/input/inplace.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/inplace.png)
+![Inplace](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/inplace.png)
 -   [KeyFilter](https://www.primefaces.org/showcase/ui/input/keyFilter.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/key-filter.png)
+![KeyFilter](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/key-filter.png)
 -   [Knob](https://www.primefaces.org/showcase/ui/input/knob.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/knob.png)
+![Knob](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/knob.png)
 -   [TextEditor](https://www.primefaces.org/showcase/ui/input/textEditor.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/text-editor.png)
+![TextEditor](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/text-editor.png)
 -   [Chips](https://www.primefaces.org/showcase/ui/input/chips.xhtml)
-![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/chips.png)
+![Chips](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/chips.png)
 
 
    
@@ -317,7 +318,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE0NDc0NjksMTI4MjQxMjU3NiwtNz
-YwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2
-Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbMTQ4MjE0Nzk4NiwxMjgyNDEyNTc2LC03Nj
+AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
+OTQ1LDE2NjYwOTU2N119
 -->

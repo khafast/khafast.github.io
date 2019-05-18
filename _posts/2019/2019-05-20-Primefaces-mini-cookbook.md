@@ -134,7 +134,9 @@
 -   [Tooltip](https://www.primefaces.org/showcase/ui/overlay/tooltip/tooltipOptions.xhtml)
 -   [Dialog](https://www.primefaces.org/showcase/ui/overlay/dialog/basic.xhtml)
 -   [Sidebar](https://www.primefaces.org/showcase/ui/overlay/sidebar.xhtml)
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/menu.svg.xhtml?ln=showcase)  Menu](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/menu.svg.xhtml?ln=showcase)  
+
+## Menu
 
 -   [Breadcrumb](https://www.primefaces.org/showcase/ui/menu/breadcrumb.xhtml)
 -   [ContextMenu](https://www.primefaces.org/showcase/ui/menu/contextmenu/basic.xhtml)
@@ -151,10 +153,9 @@
 -   [TabMenu](https://www.primefaces.org/showcase/ui/menu/tabMenu.xhtml)
 -   [TieredMenu](https://www.primefaces.org/showcase/ui/menu/tieredMenu.xhtml)
 
- [![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  
+ ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  
 
-#Charts
- 
+## Charts
 
 -   [Area](https://www.primefaces.org/showcase/ui/chart/area.xhtml)
 -   [Bar](https://www.primefaces.org/showcase/ui/chart/bar.xhtml)
@@ -288,6 +289,6 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ1NDEzNjcsLTEyODYxMjc5MjQsMT
+eyJoaXN0b3J5IjpbLTEzNzUwNjM2MzAsLTEyODYxMjc5MjQsMT
 IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
 -->

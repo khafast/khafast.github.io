@@ -23,7 +23,7 @@
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/input.svg.xhtml?ln=showcase)  
   
-  ## Input
+## Input
   
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
@@ -68,6 +68,7 @@
 
 
 ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)
+
 ## Button
  
 -   [Button](https://www.primefaces.org/showcase/ui/button/button.xhtml)
@@ -78,7 +79,8 @@
 -   [LinkButton](https://www.primefaces.org/showcase/ui/button/linkButton.xhtml)
 -   [SplitButton](https://www.primefaces.org/showcase/ui/button/splitButton.xhtml)
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/data.svg.xhtml?ln=showcase)  
- ## Data
+
+## Data
  
 
 -   [Carousel](https://www.primefaces.org/showcase/ui/data/carousel.xhtml)
@@ -105,7 +107,8 @@
 -   [Timeline](https://www.primefaces.org/showcase/ui/data/timeline/basic.xhtml)
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/panel.svg.xhtml?ln=showcase)  
- ## Panel
+
+## Panel
 
 -   [Accordion](https://www.primefaces.org/showcase/ui/panel/accordionPanel.xhtml)
 -   [Dashboard](https://www.primefaces.org/showcase/ui/panel/dashboard.xhtml)
@@ -125,7 +128,8 @@
 -   [Wizard](https://www.primefaces.org/showcase/ui/panel/wizard.xhtml)
  
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/overlay.svg.xhtml?ln=showcase)  
- ## Overlay
+ 
+## Overlay
 
 -   [ConfirmDialog](https://www.primefaces.org/showcase/ui/overlay/confirmDialog.xhtml)
 -   [OverlayPanel](https://www.primefaces.org/showcase/ui/overlay/overlayPanel.xhtml)
@@ -178,7 +182,8 @@
 -   [Responsive](https://www.primefaces.org/showcase/ui/chart/responsive.xhtml)
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/charts.svg.xhtml?ln=showcase)  
- ## ChartJs
+
+## ChartJs
 
 -   [Bar](https://www.primefaces.org/showcase/ui/chartjs/bar/bar.xhtml)
 -   [Bubble](https://www.primefaces.org/showcase/ui/chartjs/bubble.xhtml)
@@ -193,7 +198,8 @@
 -   [Export](https://www.primefaces.org/showcase/ui/chartjs/export.xhtml)
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/message.svg.xhtml?ln=showcase)  
- ## Messages
+
+## Messages
  
 -   [Growl](https://www.primefaces.org/showcase/ui/message/growl.xhtml)
 
@@ -252,7 +258,8 @@
 -   [Nested](https://www.primefaces.org/showcase/ui/df/nested.xhtml)
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/misc.svg.xhtml?ln=showcase)  
- ## Misc
+
+## Misc
 
 -   [Responsive](https://www.primefaces.org/showcase/ui/misc/responsive.xhtml)
 -   [AutoUpdate](https://www.primefaces.org/showcase/ui/misc/autoUpdate.xhtml)
@@ -289,6 +296,6 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUwNjM2MzAsLTEyODYxMjc5MjQsMT
-IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbNjYyMjIzMzkyLC0xMjg2MTI3OTI0LDEyMz
+I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
 -->

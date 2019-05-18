@@ -3,7 +3,7 @@
 ![enter image description here](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/dummy-image-300x298.jpg)
 
 ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  
-## [AjaxCore](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+## AjaxCore
 
 -   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
 -   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
@@ -23,7 +23,8 @@
 
  ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/input.svg.xhtml?ln=showcase)  
   
-  ## [Input](https://www.primefaces.org/showcase/ui/csv/event.xhtml#)
+  ## Input
+  
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
 -   [SelectBooleanButton](https://www.primefaces.org/showcase/ui/input/booleanButton.xhtml)
@@ -66,7 +67,9 @@
    
 
 
- ## ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)  
+![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/button.svg.xhtml?ln=showcase)
+## Button
+ 
 -   [Button](https://www.primefaces.org/showcase/ui/button/button.xhtml)
 -   [CommandButton](https://www.primefaces.org/showcase/ui/button/commandButton.xhtml)
 -   [CommandLink](https://www.primefaces.org/showcase/ui/button/commandLink.xhtml)
@@ -75,6 +78,6 @@
 -   [LinkButton](https://www.primefaces.org/showcase/ui/button/linkButton.xhtml)
 -   [SplitButton](https://www.primefaces.org/showcase/ui/button/splitButton.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzY5ODg4MSwtMTI4NjEyNzkyNCwxMj
-MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
+eyJoaXN0b3J5IjpbMjM2OTAzOTcxLC0xMjg2MTI3OTI0LDEyMz
+I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
 -->

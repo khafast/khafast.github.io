@@ -3,6 +3,7 @@
 ![enter image description here](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/dummy-image-300x298.jpg)
 
 ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  
+
 ## AjaxCore
 
 -   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
@@ -296,6 +297,6 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMjIzMzkyLC0xMjg2MTI3OTI0LDEyMz
-I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTc2MDM0NDgxOCwtMTI4NjEyNzkyNCwxMj
+MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

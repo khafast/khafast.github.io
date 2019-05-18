@@ -27,6 +27,9 @@
 ## Input
   
 -   [Autocomplete](https://www.primefaces.org/showcase/ui/input/autoComplete.xhtml)
+
+
+
 -   [InputTextArea](https://www.primefaces.org/showcase/ui/input/inputTextarea.xhtml)
 -   [SelectBooleanButton](https://www.primefaces.org/showcase/ui/input/booleanButton.xhtml)
 
@@ -48,6 +51,8 @@
 
 -   [DatePicker](https://www.primefaces.org/showcase/ui/input/datePicker.xhtml)
 -   [Calendar](https://www.primefaces.org/showcase/ui/input/calendar.xhtml)
+![Calendar](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/primefaces/input/calendar.png)
+
 -   [Editor](https://www.primefaces.org/showcase/ui/input/editor.xhtml)
 -   [Signature](https://www.primefaces.org/showcase/ui/input/signature.xhtml)
 -   [Spinner](https://www.primefaces.org/showcase/ui/input/spinner.xhtml)
@@ -298,7 +303,7 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMj
-g2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1
-NjddfQ==
+eyJoaXN0b3J5IjpbLTk0OTUwNTc3NywxMjgyNDEyNTc2LC03Nj
+AzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYy
+OTQ1LDE2NjYwOTU2N119
 -->

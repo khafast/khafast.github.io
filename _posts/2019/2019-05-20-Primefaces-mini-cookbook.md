@@ -19,14 +19,19 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 	<p:ajax event=”tabChange” listener=”#{bean.onChange}” />
 </p:accordionPanel>
 
+<!-- SelectEvent -->
 <p:autoComplete value="#{bean.text}" completeMethod="#{bean.complete}">
-<p:ajax event="itemSelect" listener="bean.handleSelect" update="msg" />
- </p:autoComplete>
+	<p:ajax event="itemSelect" listener="bean.handleSelect" update="msg" />
+</p:autoComplete>
 
-<!-- TabChangeEvent -->
+<!-- SelectEvent(Date) -->
 <p:calendar value="#{calendarBean.date}">
 	<p:ajax event=”dateSelect” listener=”#{bean.handleDateSelect}” update=”msg” />
 </p:calendar>
+
+<p:chart type="pie" model="#{bean.model}">
+	<p:ajax event="itemSelect" listener="#{bean.itemSelect}" />
+</p:chart>
 ```
 ```xml
 
@@ -357,8 +362,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTU0MzI1OSwtMTU0MDkwNjQ3NiwtOD
-g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
-LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
-E2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbOTk0OTgwMzY2LC0xNTQwOTA2NDc2LC04OD
+cxMzY3NSwzMDI3NjgxNjIsLTg4NzEzNjc1LDEyODI0MTI1NzYs
+LTc2MDM0NDgxOCwtMTI4NjEyNzkyNCwxMjMyOTY4MDY3LDIxMT
+Y0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

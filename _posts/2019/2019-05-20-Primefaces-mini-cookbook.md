@@ -77,6 +77,28 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 |@id | PrimeFaces | Used to search components by their id ignoring the component tree structure and naming containers.  |
 | Multiple keywords | Primefaces | can be combined in a single expression using colon; for example: @form:@parent  @composite:mybuttonid  @this:@parent:@parent  @form:@child(2) |
 
+Jquery|
+--|--
+update="@(form)" | Update all forms 
+Update first form
+update="@(form:first)"
+Update all components that has styleClass named mystyle
+update="@(.mystyle)"
+Update and process all inputs
+update="@(:input)" process="@(:input)"
+559
+PrimeFaces User Guide
+Update all datatables
+update="@(.ui-datatable)"
+Process input components inside any panel and update all panels
+process="@(.ui-panel :input)" update="@(.ui-panel)"
+Process input components but not select components
+process="@(:input:not(select))"
+Update input components that are disabled
+update="@(:input:disabled)"
+PFS can be used with other referencing approaches as well;
+update="compId :form:compId @(:input) @parent:@child(2)"
+
 -   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
 
 -   [Poll](https://www.primefaces.org/showcase/ui/ajax/poll.xhtml)
@@ -393,7 +415,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTMwNzUzNiw1MzI3OTI3NzMsNDkyNz
+eyJoaXN0b3J5IjpbLTE0NjUxODgyMyw1MzI3OTI3NzMsNDkyNz
 EyNTk5LC03NDQ3OTkzNTEsLTE1NDA5MDY0NzYsLTg4NzEzNjc1
 LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMz
 Q0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0

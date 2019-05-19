@@ -38,6 +38,10 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 <p:dashboard model="#{bean.model}">
 	<p:ajax event=”reorder” update=”messages” listener=”#{bean.handleReorder}” />
 </p:dashboard>
+
+<p:dataGrid var="car" value="#carBean.model}">
+	<p:ajax event="page" update=”anothercomponent" />	
+</p:dataGrid>
 ```
 ```xml
 
@@ -368,8 +372,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzkzMTUxMSwtMTU0MDkwNjQ3NiwtOD
-g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
-LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
-E2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbNDU1MjEwOTcsLTE1NDA5MDY0NzYsLTg4Nz
+EzNjc1LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3Niwt
+NzYwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNj
+Q2Mjk0NSwxNjY2MDk1NjddfQ==
 -->

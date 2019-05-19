@@ -59,7 +59,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Event](https://www.primefaces.org/showcase/ui/ajax/event.xhtml)
 -   [Selector](https://www.primefaces.org/showcase/ui/ajax/selector.xhtml)
 
-| Keyword | Type | Description |
+| Selector | Type | Description |
 |--|--|--|
 |@this | Standard | Current component.  |
 |@all | Standard | Whole view.  |
@@ -77,7 +77,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 |@id | PrimeFaces | Used to search components by their id ignoring the component tree structure and naming containers.  |
 | Multiple keywords | Primefaces | can be combined in a single expression using colon; for example: @form:@parent  @composite:mybuttonid  @this:@parent:@parent  @form:@child(2) |
 
-Primefaces jQuery Selector| Description
+| Primefaces jQuery Selector| Description |
 --|--
 | update="@(form)" | Update all forms |
 | update="@(form:first)" | Update first form |
@@ -85,13 +85,10 @@ Primefaces jQuery Selector| Description
 | update="@(:input)" process="@(:input)" | Update and process all inputs |
 | update="@(.ui-datatable)" | Update all datatables |
 | process="@(.ui-panel :input)" update="@(.ui-panel)" | Process input components inside any panel and update all panels |
-| process="@(:input:not(select))" |
-Process input components but not select components
+| process="@(:input:not(select))" | Process input components but not select components |
+| update="@(:input:disabled)" | Update input components that are disabled|
+| update="compId :form:compId @(:input) @parent:@child(2)" | PFS can be used with other referencing approaches as well;|
 
-Update input components that are disabled
-update="@(:input:disabled)"
-PFS can be used with other referencing approaches as well;
-update="compId :form:compId @(:input) @parent:@child(2)"
 
 -   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
 
@@ -409,9 +406,9 @@ update="compId :form:compId @(:input) @parent:@child(2)"
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc1MTUyMTIsNTMyNzkyNzczLDQ5Mj
-cxMjU5OSwtNzQ0Nzk5MzUxLC0xNTQwOTA2NDc2LC04ODcxMzY3
-NSwzMDI3NjgxNjIsLTg4NzEzNjc1LDEyODI0MTI1NzYsLTc2MD
-M0NDgxOCwtMTI4NjEyNzkyNCwxMjMyOTY4MDY3LDIxMTY0NjI5
-NDUsMTY2NjA5NTY3XX0=
+eyJoaXN0b3J5IjpbMTY4MzIwNzgyOCw1MzI3OTI3NzMsNDkyNz
+EyNTk5LC03NDQ3OTkzNTEsLTE1NDA5MDY0NzYsLTg4NzEzNjc1
+LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMz
+Q0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0
+NSwxNjY2MDk1NjddfQ==
 -->

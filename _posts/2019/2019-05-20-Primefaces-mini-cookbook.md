@@ -58,6 +58,10 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Basic](https://www.primefaces.org/showcase/ui/ajax/basic.xhtml)
 -   [Event](https://www.primefaces.org/showcase/ui/ajax/event.xhtml)
 -   [Selector](https://www.primefaces.org/showcase/ui/ajax/selector.xhtml)
+|  |  |
+|--|--|
+|  |  |
+
 -   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
 -   [Poll](https://www.primefaces.org/showcase/ui/ajax/poll.xhtml)
 -   [Fragment](https://www.primefaces.org/showcase/ui/ajax/fragment.xhtml)
@@ -373,8 +377,9 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNzEyNTk5LC03NDQ3OTkzNTEsLTE1ND
-A5MDY0NzYsLTg4NzEzNjc1LDMwMjc2ODE2MiwtODg3MTM2NzUs
-MTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMz
-I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTg1NTc3MjMyNSw0OTI3MTI1OTksLTc0ND
+c5OTM1MSwtMTU0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYy
+LC04ODcxMzY3NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyOD
+YxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2
+N119
 -->

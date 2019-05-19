@@ -82,17 +82,12 @@ Primefaces jQuery Selector| Description
 | update="@(form)" | Update all forms |
 | update="@(form:first)" | Update first form |
 | update="@(.mystyle)" | Update all components that has styleClass named mystyle |
-
-| update="@(:input)" process="@(:input)" | Update and process all i
-
-
-PrimeFaces User Guide
-Update all datatables
-update="@(.ui-datatable)"
-Process input components inside any panel and update all panels
-process="@(.ui-panel :input)" update="@(.ui-panel)"
+| update="@(:input)" process="@(:input)" | Update and process all inputs |
+| update="@(.ui-datatable)" | Update all datatables |
+| process="@(.ui-panel :input)" update="@(.ui-panel)" | Process input components inside any panel and update all panels |
+| process="@(:input:not(select))" |
 Process input components but not select components
-process="@(:input:not(select))"
+
 Update input components that are disabled
 update="@(:input:disabled)"
 PFS can be used with other referencing approaches as well;
@@ -414,9 +409,9 @@ update="compId :form:compId @(:input) @parent:@child(2)"
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjYwNDg0OCw1MzI3OTI3NzMsNDkyNz
-EyNTk5LC03NDQ3OTkzNTEsLTE1NDA5MDY0NzYsLTg4NzEzNjc1
-LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMz
-Q0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0
-NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTExNjc1MTUyMTIsNTMyNzkyNzczLDQ5Mj
+cxMjU5OSwtNzQ0Nzk5MzUxLC0xNTQwOTA2NDc2LC04ODcxMzY3
+NSwzMDI3NjgxNjIsLTg4NzEzNjc1LDEyODI0MTI1NzYsLTc2MD
+M0NDgxOCwtMTI4NjEyNzkyNCwxMjMyOTY4MDY3LDIxMTY0NjI5
+NDUsMTY2NjA5NTY3XX0=
 -->

@@ -14,6 +14,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 ```
 
 -   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
+
 -   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
 -   [Validation](https://www.primefaces.org/showcase/ui/ajax/validation.xhtml)
@@ -338,8 +339,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDc5OTM1MSwtMTU0MDkwNjQ3NiwtOD
-g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
-LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
-E2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbMjI3MjQ5MzM1LC03NDQ3OTkzNTEsLTE1ND
+A5MDY0NzYsLTg4NzEzNjc1LDMwMjc2ODE2MiwtODg3MTM2NzUs
+MTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMz
+I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
 -->

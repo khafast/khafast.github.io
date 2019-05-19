@@ -19,7 +19,12 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 <p:commandButton value="False" partialSubmit="false" process="name" />
 <p:commandButton value="True" partialSubmit="true" process="name" />
 ```
--   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
+- ### [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
+```xml
+<h:outputText id="output" value="#{counterView.number}" />
+<p:commandButton value="Count" action="#{counterView.increment}" update="output" />
+```
+
 
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
 -   [Validation](https://www.primefaces.org/showcase/ui/ajax/validation.xhtml)
@@ -344,7 +349,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg0MjM5NzcsLTc0NDc5OTM1MSwtMT
+eyJoaXN0b3J5IjpbLTE2Mjk0Njc4MTQsLTc0NDc5OTM1MSwtMT
 U0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3
 NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMT
 IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119

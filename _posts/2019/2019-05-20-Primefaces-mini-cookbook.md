@@ -62,22 +62,20 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 | Keyword | Type | Description |
 |--|--|--|
 |  |  |  |
-@this Standard Current component.
-@all Standard Whole view.
-@form Standard Closest ancestor form of current component.
-@none Standard No component.
-@namingcontainer PrimeFaces Closest ancestor naming container of current component.
-@parent PrimeFaces Parent of the current component.
-@composite PrimeFaces Closest composite component ancestor.
-@child(n) PrimeFaces nth child.
-@row(n) PrimeFaces nth row.
-@previous PrimeFaces Previous sibling.
-@next PrimeFaces Next sibling.
-@widgetVar(name) PrimeFaces Component with given widgetVar.
-@root PrimeFaces UIViewRoot instance of the view, can be used to start
-searching from the root instead the current component.
-@id PrimeFaces Used to search components by their id ignoring the component
-tree structure and naming containers.
+|@this | Standard | Current component .  |
+|@all | Standard | Whole view .  |
+|@form | Standard | Closest ancestor form of current component .  |
+|@none | Standard | No component .  |
+|@namingcontainer | PrimeFaces | Closest ancestor naming container of current component .  |
+|@parent | PrimeFaces | Parent of the current component .  |
+|@composite | PrimeFaces | Closest composite component ancestor .  |
+|@child(n) | PrimeFaces | nth child .  |
+|@row(n) | PrimeFaces | nth row .  |
+|@previous | PrimeFaces | Previous sibling .  |
+|@next | PrimeFaces | Next sibling .  |
+|@widgetVar(name) | PrimeFaces | Component with given widgetVar .  |
+|@root | PrimeFaces | UIViewRoot instance of the view, can be used to start searching from the root instead the current component .  |
+|@id | PrimeFaces | Used to search components by their id ignoring the component tree structure and naming containers .  |
 
 -   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
 -   [Poll](https://www.primefaces.org/showcase/ui/ajax/poll.xhtml)
@@ -394,7 +392,7 @@ tree structure and naming containers.
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzI3MDgyMCw0OTI3MTI1OTksLTc0ND
+eyJoaXN0b3J5IjpbLTI3NTg5MjI1Miw0OTI3MTI1OTksLTc0ND
 c5OTM1MSwtMTU0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYy
 LC04ODcxMzY3NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyOD
 YxMjc5MjQsMTIzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2

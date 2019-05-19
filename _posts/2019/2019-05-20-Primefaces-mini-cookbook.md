@@ -29,7 +29,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
 ```xml
 <h:form>      
-    <h:panelGrid id="gridId" cellpadding="5" columns="2" style="margin-bottom:10px">
+    <h:panelGrid id="grid" cellpadding="5" columns="2" style="margin-bottom:10px">
         <f:facet name="header">
             <p:messages id="msgs" />
         </f:facet>
@@ -37,17 +37,17 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
         <p:outputLabel for="firstname" value="Firstname:" />
         <p:inputText id="firstname" value="#{userView.firstname}" />
  
-        <p:outputLabel for="surnameId" value="Surname:" />
-        <p:inputText id="surnameId" value="#{userView.lastname}" required="true" requiredMessage="Surname is required." />
+        <p:outputLabel for="surname" value="Surname:" />
+        <p:inputText id="surname" value="#{userView.lastname}" required="true" requiredMessage="Surname is required." />
     </h:panelGrid>
  
     <h:panelGrid columns="6" cellpadding="5">
-        <p:commandButton value="All"  process="@all" update="gridId" action="#{userView.save}" />
-        <p:commandButton value="Form" process="@form" update="gridId" action="#{userView.save}" />
-        <p:commandButton value="This"  process="@this" update="gridId" action="#{userView.save}" />
-        <p:commandButton value="None"  process="@none" update="gridId" action="#{userView.save}" />
-        <p:commandButton value="Parent" process="@parent" update="gridId" action="#{userView.save}" />
-        <p:commandButton value="This Surname"  process="@this,surnameId" update="grid" action="#{userView.save}" />
+        <p:commandButton value="All"  process="@all" update="grid" action="#{userView.save}" />
+        <p:commandButton value="Form" process="@form" update="grid" action="#{userView.save}" />
+        <p:commandButton value="This"  process="@this" update="grid" action="#{userView.save}" />
+        <p:commandButton value="None"  process="@none" update="grid" action="#{userView.save}" />
+        <p:commandButton value="Parent" process="@parent" update="grid" action="#{userView.save}" />
+        <p:commandButton value="This Surname"  process="@this,surname" update="grid" action="#{userView.save}" />
     </h:panelGrid>
 </h:form>
 ```
@@ -373,8 +373,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY5MDYwNTIsLTc0NDc5OTM1MSwtMT
-U0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3
-NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMT
-IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbNDkyNzEyNTk5LC03NDQ3OTkzNTEsLTE1ND
+A5MDY0NzYsLTg4NzEzNjc1LDMwMjc2ODE2MiwtODg3MTM2NzUs
+MTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMz
+I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
 -->

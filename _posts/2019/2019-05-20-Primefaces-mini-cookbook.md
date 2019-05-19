@@ -49,6 +49,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 	<p:ajax event="page" update=”anothercomponent" />
 </p:dataList>
 
+<!-- ReorderEvent -->
 <p:dataTable var="car" value="#{tableBean.cars}" draggableRows="true">
 	<p:ajax event="rowReorder" listener="#{tableBean.onRowReorder}" />
 	<p:column headerText="Model">
@@ -387,7 +388,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjk1NTk3MSwtMTU0MDkwNjQ3NiwtOD
+eyJoaXN0b3J5IjpbLTU5NTM3MDI2NSwtMTU0MDkwNjQ3NiwtOD
 g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
 LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
 E2NDYyOTQ1LDE2NjYwOTU2N119

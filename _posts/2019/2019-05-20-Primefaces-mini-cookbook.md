@@ -11,57 +11,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 <p:inputText id="counter" value="#{listenerView.text}">
 	<p:ajax event="keyup" update="out" listener="#{listenerView.handleKeyEvent}" />
 </p:inputText>
-
-
-
-<!-- TabChangeEvent -->
-<p:accordionPanel>
-	<p:ajax event=”tabChange” listener=”#{bean.onChange}” />
-</p:accordionPanel>
-
-<!-- SelectEvent -->
-<p:autoComplete value="#{bean.text}" completeMethod="#{bean.complete}">
-	<p:ajax event="itemSelect" listener="bean.handleSelect" update="msg" />
-</p:autoComplete>
-
-<!-- SelectEvent(Date) -->
-<p:calendar value="#{calendarBean.date}">
-	<p:ajax event=”dateSelect” listener=”#{bean.handleDateSelect}” update=”msg” />
-</p:calendar>
-
-<!-- ItemSelectEvent -->
-<p:chart type="pie" model="#{bean.model}">
-	<p:ajax event="itemSelect" listener="#{bean.itemSelect}" />
-</p:chart>
-
-<!-- DashboardReorderEvent -->
-<p:dashboard model="#{bean.model}">
-	<p:ajax event=”reorder” update=”messages” listener=”#{bean.handleReorder}” />
-</p:dashboard>
-
-<!-- PageEvent -->
-<p:dataGrid var="car" value="#carBean.model}">
-	<p:ajax event="page" update=”anothercomponent" />	
-</p:dataGrid>
-
-<!-- PageEvent -->
-<p:dataList var="car" value="#{carBean.model}">
-	<p:ajax event="page" update=”anothercomponent" />
-</p:dataList>
-
-<!-- ReorderEvent -->
-<p:dataTable var="car" value="#{tableBean.cars}" draggableRows="true">
-	<p:ajax event="rowReorder" listener="#{tableBean.onRowReorder}" />
-	<p:column headerText="Model">
-	#{car.model}
-	</p:column>
-	//columns
-</p:dataTable>
-
 ```
-```xml
-
- ```
 
 -   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
 -   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
@@ -388,7 +338,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTM3MDI2NSwtMTU0MDkwNjQ3NiwtOD
+eyJoaXN0b3J5IjpbLTc0NDc5OTM1MSwtMTU0MDkwNjQ3NiwtOD
 g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
 LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
 E2NDYyOTQ1LDE2NjYwOTU2N119

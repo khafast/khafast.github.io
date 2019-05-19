@@ -75,8 +75,10 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 |@widgetVar(name) | PrimeFaces | Component with given widgetVar.  |
 |@root | PrimeFaces | to start searching from the root instead the current component.  |
 |@id | PrimeFaces | Used to search components by their id ignoring the component tree structure and naming containers.  |
+| Multiple keywords | Primefaces | can be combined in a single expression using colon; • @form:@parent • @composite:mybuttonid • @this:@parent:@parent • @form:@child(2) |
 
 -   [Search](https://www.primefaces.org/showcase/ui/ajax/search.xhtml)
+
 -   [Poll](https://www.primefaces.org/showcase/ui/ajax/poll.xhtml)
 -   [Fragment](https://www.primefaces.org/showcase/ui/ajax/fragment.xhtml)
 -   [Status](https://www.primefaces.org/showcase/ui/ajax/status.xhtml)
@@ -391,9 +393,9 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNzkyNzczLDQ5MjcxMjU5OSwtNzQ0Nz
-k5MzUxLC0xNTQwOTA2NDc2LC04ODcxMzY3NSwzMDI3NjgxNjIs
-LTg4NzEzNjc1LDEyODI0MTI1NzYsLTc2MDM0NDgxOCwtMTI4Nj
-EyNzkyNCwxMjMyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3
-XX0=
+eyJoaXN0b3J5IjpbLTE2NjI2NTgyNyw1MzI3OTI3NzMsNDkyNz
+EyNTk5LC03NDQ3OTkzNTEsLTE1NDA5MDY0NzYsLTg4NzEzNjc1
+LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMz
+Q0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0
+NSwxNjY2MDk1NjddfQ==
 -->

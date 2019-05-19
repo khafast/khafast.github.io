@@ -83,8 +83,8 @@ Primefaces jQuery Selector| Description
 | update="@(form:first)" | Update first form |
 | update="@(.mystyle)" | Update all components that has styleClass named mystyle |
 
-Update and process all inputs
-update="@(:input)" process="@(:input)"
+| update="@(:input)" process="@(:input)" | Update and process all i
+
 
 PrimeFaces User Guide
 Update all datatables
@@ -414,7 +414,7 @@ update="compId :form:compId @(:input) @parent:@child(2)"
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDM5NTMxMiw1MzI3OTI3NzMsNDkyNz
+eyJoaXN0b3J5IjpbMTYyNjYwNDg0OCw1MzI3OTI3NzMsNDkyNz
 EyNTk5LC03NDQ3OTkzNTEsLTE1NDA5MDY0NzYsLTg4NzEzNjc1
 LDMwMjc2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMz
 Q0ODE4LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0

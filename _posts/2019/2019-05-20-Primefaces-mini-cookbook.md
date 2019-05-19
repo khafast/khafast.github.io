@@ -6,16 +6,21 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 
 ## AjaxCore
 
--   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
+-  ### [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
 ```xml
 <p:inputText id="counter" value="#{listenerView.text}">
 	<p:ajax event="keyup" update="out" listener="#{listenerView.handleKeyEvent}" />
 </p:inputText>
 ```
 
--   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
-
+- ###   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
+```xml
+<p:inputText id="name" />
+<p:commandButton value="False" partialSubmit="false" process="name" />
+<p:commandButton value="True" partialSubmit="true" process="name" />
+```
 -   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
+
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
 -   [Validation](https://www.primefaces.org/showcase/ui/ajax/validation.xhtml)
 -   [RemoteCommand](https://www.primefaces.org/showcase/ui/ajax/remoteCommand.xhtml)
@@ -339,8 +344,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MjQ5MzM1LC03NDQ3OTkzNTEsLTE1ND
-A5MDY0NzYsLTg4NzEzNjc1LDMwMjc2ODE2MiwtODg3MTM2NzUs
-MTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMjg2MTI3OTI0LDEyMz
-I5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTEzNzg0MjM5NzcsLTc0NDc5OTM1MSwtMT
+U0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3
+NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMT
+IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
 -->

@@ -7,6 +7,13 @@
 ## AjaxCore
 
 -   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
+```xml
+`<``p:inputText` `id``=``"counter"` `value``=``"#{listenerView.text}"``>`
+
+`<``p:ajax` `event``=``"keyup"` `update``=``"out"` `listener``=``"#{listenerView.handleKeyEvent}"` `/>`
+
+`</``p:inputText``>`
+```
 -   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
 -   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
@@ -332,7 +339,8 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzEzNjc1LDMwMjc2ODE2MiwtODg3MT
-M2NzUsMTI4MjQxMjU3NiwtNzYwMzQ0ODE4LC0xMjg2MTI3OTI0
-LDEyMzI5NjgwNjcsMjExNjQ2Mjk0NSwxNjY2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbOTc2NzY4OTY0LC04ODcxMzY3NSwzMDI3Nj
+gxNjIsLTg4NzEzNjc1LDEyODI0MTI1NzYsLTc2MDM0NDgxOCwt
+MTI4NjEyNzkyNCwxMjMyOTY4MDY3LDIxMTY0NjI5NDUsMTY2Nj
+A5NTY3XX0=
 -->

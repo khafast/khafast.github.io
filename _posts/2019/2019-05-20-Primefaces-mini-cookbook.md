@@ -9,9 +9,15 @@
 -   [Listener](https://www.primefaces.org/showcase/ui/ajax/listener.xhtml)
 ```xml
 <p:inputText id="counter" value="#{listenerView.text}">
-    <p:ajax event="keyup" update="out" listener="#{listenerView.handleKeyEvent}" />
+	<p:ajax event="keyup" update="out" listener="#{listenerView.handleKeyEvent}" />
 </p:inputText>
 ```
+```xml
+<p:calendar value="#{calendarBean.date}">
+	<p:ajax event=”dateSelect” listener=”#{bean.handleDateSelect}” update=”msg” />
+</p:calendar>
+ ```
+
 -   [PartialSubmit](https://www.primefaces.org/showcase/ui/ajax/partialSubmit.xhtml)
 -   [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
@@ -337,8 +343,8 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA5MDY0NzYsLTg4NzEzNjc1LDMwMj
-c2ODE2MiwtODg3MTM2NzUsMTI4MjQxMjU3NiwtNzYwMzQ0ODE4
-LC0xMjg2MTI3OTI0LDEyMzI5NjgwNjcsMjExNjQ2Mjk0NSwxNj
-Y2MDk1NjddfQ==
+eyJoaXN0b3J5IjpbLTYzMDYyMjI3OCwtMTU0MDkwNjQ3NiwtOD
+g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
+LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
+E2NDYyOTQ1LDE2NjYwOTU2N119
 -->

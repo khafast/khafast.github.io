@@ -1,6 +1,6 @@
 # Primeface mini Cookbook
 
-![enter image description here](https://raw.githubusercontent.com/khafast/khafast.github.io/master/assets/images/dummy-image-300x298.jpg)
+This cookbook was extracted data from here: [https://www.primefaces.org/docs/guide/primefaces_user_guide_6_0.pdf](https://www.primefaces.org/docs/guide/primefaces_user_guide_6_0.pdf)
 
 ![](https://www.primefaces.org/showcase/javax.faces.resource/images/icons/ajaxCore.svg.xhtml?ln=showcase)  
 
@@ -343,8 +343,8 @@
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDYyMjI3OCwtMTU0MDkwNjQ3NiwtOD
-g3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3NSwxMjgyNDEyNTc2
-LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMTIzMjk2ODA2NywyMT
-E2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbLTc4ODc0MjE1LC0xNTQwOTA2NDc2LC04OD
+cxMzY3NSwzMDI3NjgxNjIsLTg4NzEzNjc1LDEyODI0MTI1NzYs
+LTc2MDM0NDgxOCwtMTI4NjEyNzkyNCwxMjMyOTY4MDY3LDIxMT
+Y0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

@@ -19,7 +19,7 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 <p:commandButton value="False" partialSubmit="false" process="name" />
 <p:commandButton value="True" partialSubmit="true" process="name" />
 ```
-- ### [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
+- ###  [Counter](https://www.primefaces.org/showcase/ui/ajax/counter.xhtml)
 ```xml
 <h:outputText id="output" value="#{counterView.number}" />
 <p:commandButton value="Count" action="#{counterView.increment}" update="output" />
@@ -27,6 +27,30 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 
 
 -   [Process](https://www.primefaces.org/showcase/ui/ajax/process.xhtml)
+```xml
+<h:form>      
+    <h:panelGrid id="grid" cellpadding="5" columns="2" style="margin-bottom:10px">
+        <f:facet name="header">
+            <p:messages id="msgs" />
+        </f:facet>
+ 
+        <p:outputLabel for="firstname" value="Firstname:" />
+        <p:inputText id="firstname" value="#{userView.firstname}" />
+ 
+        <p:outputLabel for="surname" value="Surname:" />
+        <p:inputText id="surname" value="#{userView.lastname}" required="true" requiredMessage="Surname is required." />
+    </h:panelGrid>
+ 
+    <h:panelGrid columns="6" cellpadding="5">
+        <p:commandButton value="All" id="btnAll" process="@all" update="grid" action="#{userView.save}" />
+        <p:commandButton value="Form" id="btnForm" process="@form" update="grid" action="#{userView.save}" />
+        <p:commandButton value="This" id="btnThis" process="@this" update="grid" action="#{userView.save}" />
+        <p:commandButton value="None" id="btnNone" process="@none" update="grid" action="#{userView.save}" />
+        <p:commandButton value="Parent" id="btnParent" process="@parent" update="grid" action="#{userView.save}" />
+        <p:commandButton value="This Surname"  process="@this,surname" update="grid" action="#{userView.save}" />
+    </h:panelGrid>
+</h:form>
+```
 -   [Validation](https://www.primefaces.org/showcase/ui/ajax/validation.xhtml)
 -   [RemoteCommand](https://www.primefaces.org/showcase/ui/ajax/remoteCommand.xhtml)
 -   [Dropdown](https://www.primefaces.org/showcase/ui/ajax/dropdown.xhtml)
@@ -349,8 +373,8 @@ This cookbook was extracted data from here: [https://www.primefaces.org/docs/gui
 -   [Terminal](https://www.primefaces.org/showcase/ui/misc/terminal/basic.xhtml)
 -   [Watermark](https://www.primefaces.org/showcase/ui/misc/watermark.xhtml)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk0Njc4MTQsLTc0NDc5OTM1MSwtMT
-U0MDkwNjQ3NiwtODg3MTM2NzUsMzAyNzY4MTYyLC04ODcxMzY3
-NSwxMjgyNDEyNTc2LC03NjAzNDQ4MTgsLTEyODYxMjc5MjQsMT
-IzMjk2ODA2NywyMTE2NDYyOTQ1LDE2NjYwOTU2N119
+eyJoaXN0b3J5IjpbMTM0NTgxODI2OCwtNzQ0Nzk5MzUxLC0xNT
+QwOTA2NDc2LC04ODcxMzY3NSwzMDI3NjgxNjIsLTg4NzEzNjc1
+LDEyODI0MTI1NzYsLTc2MDM0NDgxOCwtMTI4NjEyNzkyNCwxMj
+MyOTY4MDY3LDIxMTY0NjI5NDUsMTY2NjA5NTY3XX0=
 -->

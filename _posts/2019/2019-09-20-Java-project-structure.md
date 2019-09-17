@@ -1,10 +1,13 @@
 
-### security/src/main/resources/config.properties
+### security/src/main/resources/security-config.properties
 ```properties
 keycloak.url=https://url.com
 keycloak.group.interviewer.id=bbceeda4-8160-e5b8-8d08-3f96a818891f
 keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 ```
+
+### security/src/main/resources/META-INF/beans.xml
+```xml
 
 ### security/pom.xml
 ```xml
@@ -63,5 +66,5 @@ keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg0OTI4OTddfQ==
+eyJoaXN0b3J5IjpbLTExMzUxNTY4Ml19
 -->

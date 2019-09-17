@@ -17,6 +17,27 @@ keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 </beans>
 ```
 
+### security/src/main/java/.../GroupResourceClient.java
+```java
+import javax.ws.rs.GET;
+import javax.ws.rs.HeaderParam;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+@Path("/groups")
+public interface GroupResourceClient {
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/{id}/members")
+    public Response getUsers(@HeaderParam("Authorization") String authorization, @PathParam("id") String groupId);
+
+}
+```
+
 ### security/pom.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,5 +95,5 @@ keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTcxNTU5NV19
+eyJoaXN0b3J5IjpbNzI5NzY1NjU3LC00MTU3MTU1OTVdfQ==
 -->

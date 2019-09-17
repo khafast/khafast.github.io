@@ -8,6 +8,14 @@ keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 
 ### security/src/main/resources/META-INF/beans.xml
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
+	bean-discovery-mode="all">  
+</beans>
+```
 
 ### security/pom.xml
 ```xml
@@ -66,5 +74,5 @@ keycloak.group.recruiter.id=b6c76ffa-4e55-4daa-a16b-4ac92e6ac7a6
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUxNTY4Ml19
+eyJoaXN0b3J5IjpbLTQxNTcxNTU5NV19
 -->
